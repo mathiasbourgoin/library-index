@@ -1,0 +1,5 @@
+(executable
+ (name main)
+ (public_name library-index)
+ (package library_index)
+ (libraries library_index cmdliner yojson))

@@ -1,0 +1,14 @@
+(library
+ (name library_index)
+ (public_name library_index)
+ (libraries
+  sqlite3
+  yojson
+  re
+  otoml
+  ptime
+  ptime.clock.os
+  unix
+  threads.posix
+  mcp-kit
+  mcp-kit.stdio))

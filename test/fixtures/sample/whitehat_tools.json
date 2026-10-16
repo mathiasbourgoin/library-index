@@ -1,0 +1,53 @@
+{
+ "_policy": "Synthetic whitehat tools for the test suites. Describe tools generically; never record targets' internals, findings or exploit details.",
+ "tools": [
+  {
+   "campaign": "shared-tools (shared)",
+   "path": "proof-checker/",
+   "what": "Checks that a proof of concept actually runs and asserts the property it claims before human review",
+   "language": "Python",
+   "last_commit": "2026-06-27",
+   "reuse": "High: generic 'does this proof prove what it says' gate"
+  },
+  {
+   "campaign": "shared-tools (shared)",
+   "path": "report-lint/",
+   "what": "Lints finding reports for missing sections and unverifiable claims",
+   "language": "Python",
+   "last_commit": "2026-05-02",
+   "reuse": "High: any report template"
+  },
+  {
+   "campaign": "campaign-x",
+   "path": "fuzz-harness/",
+   "what": "Property-based fuzzing harness for a parser (generic)",
+   "language": "Rust",
+   "last_commit": "2026-04-11",
+   "reuse": "Medium: adapt the harness skeleton"
+  },
+  {
+   "campaign": "campaign-x",
+   "path": "poc-collection/",
+   "what": "Finding-specific PoCs (details withheld)",
+   "language": "Solidity",
+   "last_commit": "2026-04-20",
+   "reuse": "None"
+  },
+  {
+   "campaign": "campaign-y",
+   "path": "trace-diff/",
+   "what": "Diffs two execution traces and reports the first divergence",
+   "language": "OCaml",
+   "last_commit": "2026-03-15",
+   "reuse": "High: any deterministic VM"
+  },
+  {
+   "campaign": "workspace (unversioned)",
+   "path": "notes/",
+   "what": "Working notes, generic checklists only",
+   "language": "Markdown",
+   "last_commit": "2026-02-01",
+   "reuse": "Low"
+  }
+ ]
+}

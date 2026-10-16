@@ -1,0 +1,42 @@
+{
+ "first_para": [
+  {
+   "input": "# T\n\nshort\n\nThis is a long enough paragraph with **bold** and [link](http://x) text here.\n",
+   "expected": "This is a long enough paragraph with bold and link text here."
+  },
+  {
+   "input": "![badge](x)\n\n`code` paragraph that is long enough to be selected as the first para, really.\n",
+   "expected": "code paragraph that is long enough to be selected as the first para, really."
+  },
+  {
+   "input": "| table | row |\n\n```\nfence\n```\n\n<p>html</p>\n\nword word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word ",
+   "expected": "word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word "
+  }
+ ],
+ "norm_remote": [
+  {
+   "input": "git@github.com:Foo/Bar.git",
+   "expected": "github:foo/bar"
+  },
+  {
+   "input": "https://gitlab.com/acme/x/y.git",
+   "expected": "gitlab:acme/x/y"
+  },
+  {
+   "input": "ssh://git@github.com/a/b",
+   "expected": "github:a/b"
+  },
+  {
+   "input": "https://user@github.com/A/B/",
+   "expected": "github:a/b"
+  },
+  {
+   "input": "https://example.com/x.git",
+   "expected": null
+  },
+  {
+   "input": "git@gitlab.com:g/sub/p",
+   "expected": "gitlab:g/sub/p"
+  }
+ ]
+}

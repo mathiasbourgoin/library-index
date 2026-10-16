@@ -1,0 +1,138 @@
+{
+ "_doc": "Synthetic curated annotations for the library-index test suites: fictional repositories only. Human-written fields (what, interest, domain, consumers, status_override, maintained_side, notes, usage) keyed by host:owner/name or local:name.",
+ "github:example-collab/bench-tool": {
+  "domain": "Tools & CLIs",
+  "what": "Benchmark runner that compares OCaml executables",
+  "interest": "Reuse for OCaml performance regressions"
+ },
+ "github:example-collab/parser-combinators": {
+  "domain": "OCaml libraries",
+  "what": "OCaml parser combinators with good error recovery",
+  "interest": "Prefer it to hand-written OCaml parsers"
+ },
+ "github:example-lab/ledger-lite": {
+  "domain": "Blockchain",
+  "what": "OCaml library for a toy ledger with Merkle proofs",
+  "interest": "Teaching-grade OCaml Merkle tree implementation"
+ },
+ "github:example-lab/rollup-sim": {
+  "domain": "Blockchain",
+  "what": "Simulator for optimistic rollups written in OCaml",
+  "interest": "Reusable OCaml refutation-game simulation"
+ },
+ "github:example-lab/web-dash": {
+  "domain": "Services & apps",
+  "what": "Dashboard web service with an OCaml backend and a small JavaScript frontend",
+  "interest": "Example of an OCaml service deployed behind a reverse proxy"
+ },
+ "github:example-org/acme-mcp": {
+  "domain": "OCaml libraries",
+  "what": "MCP server library for OCaml: tools, resources and a stdio transport",
+  "interest": "Reusable MCP core for OCaml services; extend it upstream before adding a local workaround",
+  "consumers": [
+   "notes-app"
+  ]
+ },
+ "github:example-org/agent-kit": {
+  "domain": "Agent tooling & AI engineering",
+  "what": "OCaml library for driving coding agents through a JSON-RPC protocol",
+  "interest": "Agent orchestration primitives in OCaml",
+  "consumers": [
+   "library-index"
+  ]
+ },
+ "github:example-org/build-runner": {
+  "domain": "Tools & CLIs",
+  "what": "Deterministic workflow runner written in OCaml for build pipelines",
+  "interest": "Reuse the OCaml workflow engine for any multi-step job",
+  "notes": "Vendored by two projects; keep the API stable",
+  "usage": [
+   {
+    "consumer": "agent-kit",
+    "note": "runs build steps",
+    "at": "2026-09-01T10:00:00Z"
+   }
+  ]
+ },
+ "github:example-user/http-lite": {
+  "domain": "OCaml libraries",
+  "what": "Minimal OCaml HTTP/1.1 client and server on top of the standard Unix module",
+  "interest": "Good for small OCaml tools that must not pull a large stack"
+ },
+ "github:example-user/json-kit": {
+  "domain": "OCaml libraries",
+  "what": "OCaml JSON helpers: typed accessors, pretty printing and diffing",
+  "interest": "Use for any OCaml JSON plumbing instead of ad-hoc code"
+ },
+ "github:example-user/library-index": {
+  "domain": "Agent tooling & AI engineering",
+  "what": "SQLite/FTS5 index of repositories with a CLI and an MCP server",
+  "interest": "Search it before building infrastructure",
+  "consumers": [
+   "notes-app",
+   "example-agent"
+  ]
+ },
+ "github:example-user/proof-notes": {
+  "domain": "Formal methods & verification",
+  "what": "Rocq proofs about a small OCaml interpreter",
+  "interest": "Worked examples of OCaml-to-Rocq refinement proofs"
+ },
+ "github:example-user/spec-check": {
+  "domain": "Formal methods & verification",
+  "what": "Model-based testing harness comparing an OCaml implementation with a Quint model",
+  "interest": "Reusable conformance testing approach for OCaml code"
+ },
+ "github:example-user/term-ui": {
+  "domain": "OCaml libraries",
+  "what": "OCaml terminal UI widgets: lists, modals, key bindings",
+  "interest": "Reusable TUI building blocks for OCaml command-line tools",
+  "status_override": "active"
+ },
+ "gitlab:acme-campaigns/campaign-x": {
+  "domain": "Security research",
+  "what": "Campaign workspace (details withheld)"
+ },
+ "gitlab:acme-campaigns/shared-tools": {
+  "domain": "Security research",
+  "what": "Shared campaign tooling, described generically",
+  "interest": "Generic checkers usable outside any campaign"
+ },
+ "gitlab:acme/acme-mcp": {
+  "domain": "OCaml libraries",
+  "what": "GitLab mirror of the OCaml MCP server library",
+  "interest": "Mirror only; the GitHub copy is maintained",
+  "maintained_side": "upstream"
+ },
+ "gitlab:acme/ci-templates": {
+  "domain": "Tools & CLIs",
+  "what": "CI templates for OCaml projects (dune build, runtest, fmt)",
+  "interest": "Copy the OCaml CI jobs into new repositories"
+ },
+ "gitlab:acme/data-codec": {
+  "domain": "OCaml libraries",
+  "what": "OCaml binary and JSON data encoding combinators",
+  "interest": "Shared OCaml serialisation layer",
+  "consumers": [
+   "rollup-sim"
+  ],
+  "since_note": {
+   "since": "2025"
+  }
+ },
+ "local:lecture-notes": {
+  "domain": "Teaching, papers & personal",
+  "what": "Lecture notes and exercises about OCaml and type systems",
+  "interest": "Teaching material; reuse the exercises"
+ },
+ "local:sample-lib": {
+  "domain": "OCaml libraries",
+  "what": "OCaml sample library for parsing small configuration files",
+  "interest": "Small reusable OCaml parsing helpers with good error messages"
+ },
+ "local:scratch-tools": {
+  "domain": "Tools & CLIs",
+  "what": "Local shell helpers for day-to-day chores",
+  "interest": "Copy single scripts rather than depending on the repo"
+ }
+}

@@ -1,0 +1,110 @@
+# Example sources.toml for library-index (fictional names). Copy it to your data
+# directory ($XDG_DATA_HOME/library-index/sources.toml by default) and edit it.
+# Every table and key is optional; a missing file means "no source, no rule".
+
+[owner]
+display_name = "Ada Example"
+author_regex = "example"
+gitlab_me_names = ["ada example", "exampleuser", "example-user"]
+gitlab_email_fragments = ["example"]
+
+[render]
+title = "Ada Example — repository & library index"
+notes_dir = "~/pages"
+inherited_examples = "old upstream forks"
+contributes_column = "Ada contributes"
+whitehat_where = "GitLab group `acme-campaigns`, local `~/work/campaigns`"
+fixed_gaps = [
+  "Whitehat work lives in GitLab group `acme-campaigns` (indexed) and the unversioned workspace `~/work/campaigns` (tools section).",
+  "GitLab project languages come from the languages API; GitLab contributor stats were queried only for projects with his MRs / contributed-project flag (sparingly), so Tier-2 GitLab rows may hide minor involvement.",
+]
+
+[[source]]
+kind = "github-user"
+name = "example-user"
+
+[[source]]
+kind = "github-affiliation"
+
+[[source]]
+kind = "github-org"
+name = "example-org"
+own = true
+
+[[source]]
+kind = "github-org"
+name = "example-lab"
+own = true
+
+[[source]]
+kind = "github-org"
+name = "example-builders"
+own = true
+
+[[source]]
+kind = "github-org"
+name = "example-misc"
+own = true
+
+[[source]]
+kind = "github-org"
+name = "other-org"
+
+[[source]]
+kind = "github-org"
+name = "probe-org"
+probe = true
+
+[[source]]
+kind = "github-collab"
+name = "example-collab"
+
+[[source]]
+kind = "github-memberships"
+
+[[source]]
+kind = "github-search"
+
+[[source]]
+kind = "gitlab-user"
+name = "ExampleUser"
+
+[[source]]
+kind = "gitlab-group"
+name = "acme"
+
+[[source]]
+kind = "gitlab-group"
+name = "acme-campaigns"
+campaign_prefix = true
+
+[[source]]
+kind = "local-root"
+name = "~/work"
+
+[classify]
+mirror_name_regex = "chainx|mirror-one|mirror-two|mirror-three|mirror-four"
+mirror_exempt_owners = ["chainx", "acme"]
+major_contributor_owners = ["chainx"]
+major_contributor_min_prs = 20
+org_member_owners = ["example-org", "example-lab", "example-builders"]
+main_author_owners = ["example-org", "example-lab"]
+main_author_min = 10
+derived_domains = [
+  { owner = "acme-campaigns", prefix = true, domain = "Security research" },
+  { owner = "acme/private", prefix = false, domain = "Security research" },
+]
+campaign_owner_prefixes = ["acme/private", "audit-house"]
+campaign_exempt_names = ["shared-tools", "playbook"]
+
+# Optional: the closed domain vocabulary, in rendering order ("Other" is always last).
+# domains = ["OCaml libraries", "Tools & CLIs", "Security research", "Other"]
+
+# Single repositories, written by `library-index register` (or by hand):
+# [[repo]]
+# target = "https://github.com/example-org/json-kit"
+# key = "github:example-org/json-kit"   # written by `library-index register`
+# ownership = "external"                # own | participant | external (default: inferred)
+# confidential = "none"                 # generic | exclude-from-page | none
+# campaign = false
+# deep = false

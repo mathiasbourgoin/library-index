@@ -1,0 +1,4927 @@
+{
+ "now": "2026-09-01T12:00:00Z",
+ "source": "synthetic: a seeded generator over the test configuration's fictional owners; expected outputs computed by this code (no real data)",
+ "note": "one case per outcome class of the classify rules plus extra classes; regenerate only through a reviewed change",
+ "cases": [
+  {
+   "key": "github:audit-house/repo-0757",
+   "input": {
+    "key": "github:audit-house/repo-0757",
+    "host": "github",
+    "owner": "audit-house",
+    "name": "repo-0757",
+    "full_name": "audit-house/repo-0757",
+    "url": "https://github.com/audit-house/repo-0757",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": "C",
+    "description": "A synthetic tool.",
+    "default_branch": "main",
+    "pushed_at": "2025-08-16T23:55:07Z",
+    "updated_at": "2025-08-16T12:19:03Z",
+    "last_commit": null,
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-user",
+     "gh-affiliation"
+    ],
+    "mrs": 3,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 342,
+     "n_contributors": 48
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 0757"
+   },
+   "search_commits": 0,
+   "search_prs": 14,
+   "expected": {
+    "role": "contributor",
+    "evidence": "342 commits, 17 PRs/MRs",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": null,
+    "is_campaign": true,
+    "what_fallback": "Synopsis 0757"
+   }
+  },
+  {
+   "key": "github:audit-house/repo-11728-chainx",
+   "input": {
+    "key": "github:audit-house/repo-11728-chainx",
+    "host": "github",
+    "owner": "audit-house",
+    "name": "repo-11728-chainx",
+    "full_name": "audit-house/repo-11728-chainx",
+    "url": "https://github.com/audit-house/repo-11728-chainx",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "Go",
+    "description": "",
+    "default_branch": "master",
+    "pushed_at": "2026-08-13T01:17:56Z",
+    "updated_at": "2026-08-13T11:58:31Z",
+    "last_commit": "2026-08-08T17:45:18Z",
+    "parent": "owner-07/repo-11728-chainx",
+    "parent_pushed_at": "2026-08-09T20:39:50Z",
+    "parent_archived": true,
+    "sources": [
+     "gh-affiliation",
+     "gh-user"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 0,
+     "n_contributors": 48
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": null,
+    "evidence": "",
+    "tier": "2",
+    "computed_domain": null,
+    "status": "active",
+    "fork_note": "fork of owner-07/repo-11728-chainx; maintained: fork (upstream archived)",
+    "is_campaign": true,
+    "what_fallback": "—"
+   }
+  },
+  {
+   "key": "github:audit-house/repo-13405",
+   "input": {
+    "key": "github:audit-house/repo-13405",
+    "host": "github",
+    "owner": "audit-house",
+    "name": "repo-13405",
+    "full_name": "audit-house/repo-13405",
+    "url": "https://github.com/audit-house/repo-13405",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "TypeScript",
+    "description": "Library for synthetic data.",
+    "default_branch": "main",
+    "pushed_at": "2026-04-12T08:58:10Z",
+    "updated_at": "2026-04-12T03:01:38Z",
+    "last_commit": "2026-03-15T23:25:38Z",
+    "parent": "chainx/repo-13405",
+    "parent_pushed_at": "2025-11-03T16:24:02Z",
+    "parent_archived": false,
+    "sources": [
+     "gh-participation",
+     "gh-affiliation"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 0,
+     "n_contributors": 18
+    },
+    "local_paths": [
+     "/home/example/work/repo-13405"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 6,
+   "expected": {
+    "role": "contributor",
+    "evidence": "6 PRs/MRs",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": "fork of chainx/repo-13405; maintained: fork (his)",
+    "is_campaign": true,
+    "what_fallback": "Library for synthetic data."
+   }
+  },
+  {
+   "key": "github:audit-house/repo-1993",
+   "input": {
+    "key": "github:audit-house/repo-1993",
+    "host": "github",
+    "owner": "audit-house",
+    "name": "repo-1993",
+    "full_name": "audit-house/repo-1993",
+    "url": "https://github.com/audit-house/repo-1993",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "OCaml",
+    "description": "",
+    "default_branch": "main",
+    "pushed_at": "2020-02-11T08:01:38Z",
+    "updated_at": "2020-02-10T13:07:50Z",
+    "last_commit": "2020-01-19T07:27:28Z",
+    "parent": "owner-07/repo-1993",
+    "parent_pushed_at": "2020-05-03T10:32:32Z",
+    "parent_archived": false,
+    "sources": [
+     "gh-user",
+     "gh-participation"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 0,
+     "n_contributors": 67
+    },
+    "local_paths": [
+     "/home/example/work/repo-1993"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": null,
+    "evidence": "",
+    "tier": "2",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": "fork of owner-07/repo-1993; maintained: upstream",
+    "is_campaign": true,
+    "what_fallback": "—"
+   }
+  },
+  {
+   "key": "github:audit-house/repo-25066",
+   "input": {
+    "key": "github:audit-house/repo-25066",
+    "host": "github",
+    "owner": "audit-house",
+    "name": "repo-25066",
+    "full_name": "audit-house/repo-25066",
+    "url": "https://github.com/audit-house/repo-25066",
+    "private": true,
+    "fork": true,
+    "archived": true,
+    "language": "Shell",
+    "description": "Synthetic copy of an upstream.",
+    "default_branch": "main",
+    "pushed_at": "2026-02-24T20:35:38Z",
+    "updated_at": "2026-02-25T10:48:59Z",
+    "last_commit": null,
+    "parent": "acme/repo-25066",
+    "parent_pushed_at": "2021-08-29T05:24:03Z",
+    "parent_archived": false,
+    "sources": [
+     "gh-affiliation"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": null,
+    "evidence": "",
+    "tier": "2",
+    "computed_domain": null,
+    "status": "archived",
+    "fork_note": "fork of acme/repo-25066; maintained: fork (his)",
+    "is_campaign": true,
+    "what_fallback": "Synthetic copy of an upstream."
+   }
+  },
+  {
+   "key": "github:audit-house/repo-3506-mirror-two",
+   "input": {
+    "key": "github:audit-house/repo-3506-mirror-two",
+    "host": "github",
+    "owner": "audit-house",
+    "name": "repo-3506-mirror-two",
+    "full_name": "audit-house/repo-3506-mirror-two",
+    "url": "https://github.com/audit-house/repo-3506-mirror-two",
+    "private": false,
+    "fork": false,
+    "archived": true,
+    "language": "TypeScript",
+    "description": "",
+    "default_branch": "main",
+    "pushed_at": "2025-10-08T01:08:41Z",
+    "updated_at": "2025-10-07T16:38:31Z",
+    "last_commit": "2025-10-08T06:11:38Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-participation"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [
+     "/home/example/work/repo-3506-mirror-two"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": null,
+    "evidence": "",
+    "tier": "2",
+    "computed_domain": null,
+    "status": "archived",
+    "fork_note": null,
+    "is_campaign": true,
+    "what_fallback": "—"
+   }
+  },
+  {
+   "key": "github:audit-house/repo-96984-mirror-two",
+   "input": {
+    "key": "github:audit-house/repo-96984-mirror-two",
+    "host": "github",
+    "owner": "audit-house",
+    "name": "repo-96984-mirror-two",
+    "full_name": "audit-house/repo-96984-mirror-two",
+    "url": "https://github.com/audit-house/repo-96984-mirror-two",
+    "private": true,
+    "fork": true,
+    "archived": false,
+    "language": "TypeScript",
+    "description": "Library for synthetic data.",
+    "default_branch": "master",
+    "pushed_at": "2026-04-12T04:09:17Z",
+    "updated_at": "2026-04-12T07:50:31Z",
+    "last_commit": "2026-04-07T21:27:31Z",
+    "parent": "acme/repo-96984-mirror-two",
+    "parent_pushed_at": "2025-10-14T03:36:31Z",
+    "parent_archived": true,
+    "sources": [
+     "gh-collab"
+    ],
+    "mrs": 1,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 140,
+     "n_contributors": 59,
+     "rank": 42,
+     "share": 0.4043
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 96984"
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "main author",
+    "evidence": "140 commits (rank 42/59, 40%), 1 PRs/MRs",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": "fork of acme/repo-96984-mirror-two; maintained: fork (upstream archived)",
+    "is_campaign": true,
+    "what_fallback": "Synopsis 96984"
+   }
+  },
+  {
+   "key": "github:chainx/repo-0152",
+   "input": {
+    "key": "github:chainx/repo-0152",
+    "host": "github",
+    "owner": "chainx",
+    "name": "repo-0152",
+    "full_name": "chainx/repo-0152",
+    "url": "https://github.com/chainx/repo-0152",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "Shell",
+    "description": "",
+    "default_branch": "main",
+    "pushed_at": "2026-01-05T08:50:26Z",
+    "updated_at": "2026-01-05T04:46:32Z",
+    "last_commit": "2025-12-19T01:32:54Z",
+    "parent": "owner-07/repo-0152",
+    "parent_pushed_at": "2026-03-17T06:06:55Z",
+    "parent_archived": false,
+    "sources": [
+     "gh-participation"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [
+     "/home/example/work/repo-0152"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": null,
+    "evidence": "",
+    "tier": "2",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": "fork of owner-07/repo-0152; maintained: upstream",
+    "is_campaign": false,
+    "what_fallback": "—"
+   }
+  },
+  {
+   "key": "github:chainx/repo-0266-chainx",
+   "input": {
+    "key": "github:chainx/repo-0266-chainx",
+    "host": "github",
+    "owner": "chainx",
+    "name": "repo-0266-chainx",
+    "full_name": "chainx/repo-0266-chainx",
+    "url": "https://github.com/chainx/repo-0266-chainx",
+    "private": true,
+    "fork": false,
+    "archived": false,
+    "language": "OCaml",
+    "description": "Library for synthetic data.",
+    "default_branch": "master",
+    "pushed_at": "2026-07-14T11:47:37Z",
+    "updated_at": "2026-07-13T12:15:02Z",
+    "last_commit": "2026-06-25T23:11:29Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-participation",
+     "gh-collab"
+    ],
+    "mrs": 17,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 155,
+     "n_contributors": 16,
+     "rank": 10,
+     "share": 0.5297
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 44,
+    "synopsis": "Synopsis 0266"
+   },
+   "search_commits": 0,
+   "search_prs": 7,
+   "expected": {
+    "role": "main author",
+    "evidence": "155 commits (rank 10/16, 52%), 24 PRs/MRs",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "active",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synopsis 0266"
+   }
+  },
+  {
+   "key": "github:chainx/repo-0360",
+   "input": {
+    "key": "github:chainx/repo-0360",
+    "host": "github",
+    "owner": "chainx",
+    "name": "repo-0360",
+    "full_name": "chainx/repo-0360",
+    "url": "https://github.com/chainx/repo-0360",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "Shell",
+    "description": "Library for synthetic data.",
+    "default_branch": "master",
+    "pushed_at": "2026-08-19T19:39:13Z",
+    "updated_at": "2026-08-20T04:32:33Z",
+    "last_commit": "2026-08-05T01:59:27Z",
+    "parent": "owner-03/repo-0360",
+    "parent_pushed_at": "2026-01-17T02:56:12Z",
+    "parent_archived": true,
+    "sources": [
+     "gh-collab",
+     "gh-affiliation"
+    ],
+    "mrs": 37,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 0,
+     "n_contributors": 17
+    },
+    "local_paths": [
+     "/home/example/work/repo-0360"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 27,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "contributor (major)",
+    "evidence": "27 commits, 37 PRs/MRs",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "active",
+    "fork_note": "fork of owner-03/repo-0360; maintained: fork (upstream archived)",
+    "is_campaign": false,
+    "what_fallback": "Library for synthetic data."
+   }
+  },
+  {
+   "key": "github:chainx/repo-1446-chainx",
+   "input": {
+    "key": "github:chainx/repo-1446-chainx",
+    "host": "github",
+    "owner": "chainx",
+    "name": "repo-1446-chainx",
+    "full_name": "chainx/repo-1446-chainx",
+    "url": "https://github.com/chainx/repo-1446-chainx",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "C",
+    "description": "Synthetic copy of an upstream.",
+    "default_branch": "main",
+    "pushed_at": "2024-12-10T01:35:34Z",
+    "updated_at": "2024-12-09T23:33:18Z",
+    "last_commit": null,
+    "parent": "owner-07/repo-1446-chainx",
+    "parent_pushed_at": "2026-07-09T19:16:33Z",
+    "parent_archived": false,
+    "sources": [
+     "gh-user"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 300,
+     "n_contributors": 25,
+     "rank": 12,
+     "share": 0.4584
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "main author",
+    "evidence": "300 commits (rank 12/25, 45%)",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": "fork of owner-07/repo-1446-chainx; maintained: upstream",
+    "is_campaign": false,
+    "what_fallback": "Synthetic copy of an upstream."
+   }
+  },
+  {
+   "key": "github:example-builders/repo-0003-mirror-one",
+   "input": {
+    "key": "github:example-builders/repo-0003-mirror-one",
+    "host": "github",
+    "owner": "example-builders",
+    "name": "repo-0003-mirror-one",
+    "full_name": "example-builders/repo-0003-mirror-one",
+    "url": "https://github.com/example-builders/repo-0003-mirror-one",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": null,
+    "description": "",
+    "default_branch": "main",
+    "pushed_at": "2026-03-09T08:11:52Z",
+    "updated_at": "2026-03-09T11:27:42Z",
+    "last_commit": "2026-02-16T02:36:54Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-user",
+     "gh-org:example-builders"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 22,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "inherited",
+    "evidence": "22 commits — historical commits carried by a fork/mirror",
+    "tier": "inherited",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "—"
+   }
+  },
+  {
+   "key": "github:example-builders/repo-0174",
+   "input": {
+    "key": "github:example-builders/repo-0174",
+    "host": "github",
+    "owner": "example-builders",
+    "name": "repo-0174",
+    "full_name": "example-builders/repo-0174",
+    "url": "https://github.com/example-builders/repo-0174",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": null,
+    "description": "Library for synthetic data.",
+    "default_branch": "master",
+    "pushed_at": "2025-09-18T00:56:05Z",
+    "updated_at": "2025-09-17T19:27:46Z",
+    "last_commit": "2025-08-28T05:02:15Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-user",
+     "gh-collab",
+     "gh-org:example-builders"
+    ],
+    "mrs": 1,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 0,
+     "n_contributors": 53
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 0174"
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "occasional",
+    "evidence": "1 PRs/MRs",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synopsis 0174"
+   }
+  },
+  {
+   "key": "github:example-builders/repo-14051",
+   "input": {
+    "key": "github:example-builders/repo-14051",
+    "host": "github",
+    "owner": "example-builders",
+    "name": "repo-14051",
+    "full_name": "example-builders/repo-14051",
+    "url": "https://github.com/example-builders/repo-14051",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "TypeScript",
+    "description": "Synthetic copy of an upstream.",
+    "default_branch": "master",
+    "pushed_at": "2024-01-25T18:19:02Z",
+    "updated_at": "2024-01-26T05:56:04Z",
+    "last_commit": "2023-12-29T05:50:42Z",
+    "parent": "acme/repo-14051",
+    "parent_pushed_at": "2026-07-04T08:21:07Z",
+    "parent_archived": false,
+    "sources": [
+     "gh-collab",
+     "gh-org:example-builders"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 0,
+     "n_contributors": 56
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 14051"
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "org member",
+    "evidence": "repo in his org",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": "fork of acme/repo-14051; maintained: upstream",
+    "is_campaign": false,
+    "what_fallback": "Synopsis 14051"
+   }
+  },
+  {
+   "key": "github:example-builders/repo-1616-mirror-two",
+   "input": {
+    "key": "github:example-builders/repo-1616-mirror-two",
+    "host": "github",
+    "owner": "example-builders",
+    "name": "repo-1616-mirror-two",
+    "full_name": "example-builders/repo-1616-mirror-two",
+    "url": "https://github.com/example-builders/repo-1616-mirror-two",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "OCaml",
+    "description": "Synthetic copy of an upstream.",
+    "default_branch": "master",
+    "pushed_at": "2024-05-30T02:40:45Z",
+    "updated_at": "2024-05-30T08:56:32Z",
+    "last_commit": "2024-05-17T04:48:19Z",
+    "parent": "chainx/repo-1616-mirror-two",
+    "parent_pushed_at": "2024-02-24T13:14:08Z",
+    "parent_archived": false,
+    "sources": [
+     "gh-user",
+     "gh-org:example-builders"
+    ],
+    "mrs": 1,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 9,
+     "n_contributors": 53,
+     "rank": 27,
+     "share": 0.2147
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 1616"
+   },
+   "search_commits": 29,
+   "search_prs": 28,
+   "expected": {
+    "role": "contributor",
+    "evidence": "29 commits (rank 27/53, 21%), 29 PRs/MRs",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": "fork of chainx/repo-1616-mirror-two; maintained: fork (his)",
+    "is_campaign": false,
+    "what_fallback": "Synopsis 1616"
+   }
+  },
+  {
+   "key": "github:example-collab/repo-0322",
+   "input": {
+    "key": "github:example-collab/repo-0322",
+    "host": "github",
+    "owner": "example-collab",
+    "name": "repo-0322",
+    "full_name": "example-collab/repo-0322",
+    "url": "https://github.com/example-collab/repo-0322",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "Shell",
+    "description": "Library for synthetic data.",
+    "default_branch": "main",
+    "pushed_at": "2022-07-09T16:32:20Z",
+    "updated_at": "2022-07-10T09:59:30Z",
+    "last_commit": "2022-06-11T21:08:44Z",
+    "parent": "other-org/repo-0322",
+    "parent_pushed_at": "2026-08-14T13:09:30Z",
+    "parent_archived": false,
+    "sources": [
+     "gh-user"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 0,
+     "n_contributors": 50
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 0322"
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": null,
+    "evidence": "",
+    "tier": "collab",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": "fork of other-org/repo-0322; maintained: upstream",
+    "is_campaign": false,
+    "what_fallback": "Synopsis 0322"
+   }
+  },
+  {
+   "key": "github:example-collab/repo-0945-mirror-one",
+   "input": {
+    "key": "github:example-collab/repo-0945-mirror-one",
+    "host": "github",
+    "owner": "example-collab",
+    "name": "repo-0945-mirror-one",
+    "full_name": "example-collab/repo-0945-mirror-one",
+    "url": "https://github.com/example-collab/repo-0945-mirror-one",
+    "private": true,
+    "fork": false,
+    "archived": false,
+    "language": "Shell",
+    "description": "A synthetic tool.",
+    "default_branch": "main",
+    "pushed_at": "2023-07-17T06:28:58Z",
+    "updated_at": "2023-07-16T17:15:32Z",
+    "last_commit": "2023-07-13T14:39:11Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-participation"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": null,
+    "evidence": "",
+    "tier": "collab",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "A synthetic tool."
+   }
+  },
+  {
+   "key": "github:example-collab/repo-1192-chainx",
+   "input": {
+    "key": "github:example-collab/repo-1192-chainx",
+    "host": "github",
+    "owner": "example-collab",
+    "name": "repo-1192-chainx",
+    "full_name": "example-collab/repo-1192-chainx",
+    "url": "https://github.com/example-collab/repo-1192-chainx",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "TypeScript",
+    "description": "A synthetic tool.",
+    "default_branch": "main",
+    "pushed_at": "2025-12-03T20:30:48Z",
+    "updated_at": "2025-12-04T09:39:36Z",
+    "last_commit": "2025-11-19T15:47:03Z",
+    "parent": "chainx/repo-1192-chainx",
+    "parent_pushed_at": "2026-05-11T16:15:02Z",
+    "parent_archived": false,
+    "sources": [
+     "gh-collab",
+     "gh-affiliation"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 112,
+     "n_contributors": 70,
+     "rank": 12,
+     "share": 0.6686
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 32,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "main author",
+    "evidence": "112 commits (rank 12/70, 66%)",
+    "tier": "collab",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": "fork of chainx/repo-1192-chainx; maintained: upstream",
+    "is_campaign": false,
+    "what_fallback": "A synthetic tool."
+   }
+  },
+  {
+   "key": "github:example-collab/repo-14077",
+   "input": {
+    "key": "github:example-collab/repo-14077",
+    "host": "github",
+    "owner": "example-collab",
+    "name": "repo-14077",
+    "full_name": "example-collab/repo-14077",
+    "url": "https://github.com/example-collab/repo-14077",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "OCaml",
+    "description": "Synthetic copy of an upstream.",
+    "default_branch": "master",
+    "pushed_at": "2022-02-22T06:16:09Z",
+    "updated_at": "2022-02-21T14:03:32Z",
+    "last_commit": "2022-02-11T04:47:12Z",
+    "parent": "chainx/repo-14077",
+    "parent_pushed_at": "2023-10-13T17:15:01Z",
+    "parent_archived": false,
+    "sources": [
+     "gh-collab",
+     "gh-participation"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 6,
+     "n_contributors": 11,
+     "rank": 7,
+     "share": 0.0165
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 18,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "inherited",
+    "evidence": "18 commits (rank 7/11, 1%) — historical commits carried by a fork/mirror",
+    "tier": "collab",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": "fork of chainx/repo-14077; maintained: upstream",
+    "is_campaign": false,
+    "what_fallback": "Synthetic copy of an upstream."
+   }
+  },
+  {
+   "key": "github:example-collab/repo-18586-mirror-two",
+   "input": {
+    "key": "github:example-collab/repo-18586-mirror-two",
+    "host": "github",
+    "owner": "example-collab",
+    "name": "repo-18586-mirror-two",
+    "full_name": "example-collab/repo-18586-mirror-two",
+    "url": "https://github.com/example-collab/repo-18586-mirror-two",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "Shell",
+    "description": "A synthetic tool.",
+    "default_branch": "main",
+    "pushed_at": "2025-04-12T06:05:32Z",
+    "updated_at": "2025-04-11T20:29:28Z",
+    "last_commit": null,
+    "parent": "owner-07/repo-18586-mirror-two",
+    "parent_pushed_at": "2025-10-25T06:33:45Z",
+    "parent_archived": false,
+    "sources": [
+     "gh-user",
+     "gh-affiliation"
+    ],
+    "mrs": 1,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 8,
+     "n_contributors": 12,
+     "rank": 6,
+     "share": 0.5636
+    },
+    "local_paths": [
+     "/home/example/work/repo-18586-mirror-two"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 18586"
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "main author",
+    "evidence": "8 commits (rank 6/12, 56%), 1 PRs/MRs",
+    "tier": "collab",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": "fork of owner-07/repo-18586-mirror-two; maintained: upstream",
+    "is_campaign": false,
+    "what_fallback": "Synopsis 18586"
+   }
+  },
+  {
+   "key": "github:example-collab/repo-204838",
+   "input": {
+    "key": "github:example-collab/repo-204838",
+    "host": "github",
+    "owner": "example-collab",
+    "name": "repo-204838",
+    "full_name": "example-collab/repo-204838",
+    "url": "https://github.com/example-collab/repo-204838",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "C",
+    "description": "Library for synthetic data.",
+    "default_branch": "master",
+    "pushed_at": "2026-07-31T18:55:50Z",
+    "updated_at": "2026-07-31T22:58:43Z",
+    "last_commit": "2026-07-28T03:38:23Z",
+    "parent": "owner-07/repo-204838",
+    "parent_pushed_at": "2026-08-18T12:53:37Z",
+    "parent_archived": false,
+    "sources": [
+     "gh-affiliation",
+     "gh-user"
+    ],
+    "mrs": 1,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [
+     "/home/example/work/repo-204838"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 204838"
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "occasional",
+    "evidence": "1 PRs/MRs",
+    "tier": "collab",
+    "computed_domain": null,
+    "status": "active",
+    "fork_note": "fork of owner-07/repo-204838; maintained: upstream",
+    "is_campaign": false,
+    "what_fallback": "Synopsis 204838"
+   }
+  },
+  {
+   "key": "github:example-collab/repo-2454",
+   "input": {
+    "key": "github:example-collab/repo-2454",
+    "host": "github",
+    "owner": "example-collab",
+    "name": "repo-2454",
+    "full_name": "example-collab/repo-2454",
+    "url": "https://github.com/example-collab/repo-2454",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": "Go",
+    "description": "Synthetic copy of an upstream.",
+    "default_branch": "master",
+    "pushed_at": "2024-08-16T04:14:07Z",
+    "updated_at": "2024-08-15T19:53:59Z",
+    "last_commit": "2024-08-13T20:54:06Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-collab"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 44,
+    "synopsis": null
+   },
+   "search_commits": 29,
+   "search_prs": 0,
+   "expected": {
+    "role": "contributor",
+    "evidence": "44 commits",
+    "tier": "collab",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synthetic copy of an upstream."
+   }
+  },
+  {
+   "key": "github:example-collab/repo-265267",
+   "input": {
+    "key": "github:example-collab/repo-265267",
+    "host": "github",
+    "owner": "example-collab",
+    "name": "repo-265267",
+    "full_name": "example-collab/repo-265267",
+    "url": "https://github.com/example-collab/repo-265267",
+    "private": true,
+    "fork": true,
+    "archived": false,
+    "language": null,
+    "description": "Library for synthetic data.",
+    "default_branch": "master",
+    "pushed_at": "2026-01-31T05:41:20Z",
+    "updated_at": "2026-01-31T03:29:36Z",
+    "last_commit": null,
+    "parent": "acme/repo-265267",
+    "parent_pushed_at": "2023-03-14T23:31:51Z",
+    "parent_archived": true,
+    "sources": [
+     "gh-affiliation"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 362,
+     "n_contributors": 62,
+     "rank": 57,
+     "share": 0.0065
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null
+   },
+   "search_commits": 15,
+   "search_prs": 0,
+   "expected": {
+    "role": "inherited",
+    "evidence": "362 commits (rank 57/62, 0%) — historical commits carried by a fork/mirror",
+    "tier": "collab",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": "fork of acme/repo-265267; maintained: fork (upstream archived)",
+    "is_campaign": false,
+    "what_fallback": "Library for synthetic data."
+   }
+  },
+  {
+   "key": "github:example-collab/repo-3340",
+   "input": {
+    "key": "github:example-collab/repo-3340",
+    "host": "github",
+    "owner": "example-collab",
+    "name": "repo-3340",
+    "full_name": "example-collab/repo-3340",
+    "url": "https://github.com/example-collab/repo-3340",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": "TypeScript",
+    "description": "",
+    "default_branch": "master",
+    "pushed_at": "2025-10-08T03:50:00Z",
+    "updated_at": "2025-10-07T19:06:43Z",
+    "last_commit": "2025-09-09T05:26:20Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-user"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 4,
+     "n_contributors": 24,
+     "rank": 12,
+     "share": 0.0076
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "occasional",
+    "evidence": "4 commits (rank 12/24, 0%)",
+    "tier": "collab",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "—"
+   }
+  },
+  {
+   "key": "github:example-collab/repo-33691",
+   "input": {
+    "key": "github:example-collab/repo-33691",
+    "host": "github",
+    "owner": "example-collab",
+    "name": "repo-33691",
+    "full_name": "example-collab/repo-33691",
+    "url": "https://github.com/example-collab/repo-33691",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": null,
+    "description": "",
+    "default_branch": "main",
+    "pushed_at": "2026-08-19T22:01:32Z",
+    "updated_at": "2026-08-19T14:42:45Z",
+    "last_commit": "2026-08-13T10:41:56Z",
+    "parent": "owner-03/repo-33691",
+    "parent_pushed_at": "2025-09-18T03:57:18Z",
+    "parent_archived": true,
+    "sources": [
+     "gh-participation"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [
+     "/home/example/work/repo-33691"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 33691"
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": null,
+    "evidence": "",
+    "tier": "collab",
+    "computed_domain": null,
+    "status": "active",
+    "fork_note": "fork of owner-03/repo-33691; maintained: fork (upstream archived)",
+    "is_campaign": false,
+    "what_fallback": "Synopsis 33691"
+   }
+  },
+  {
+   "key": "github:example-collab/repo-35432",
+   "input": {
+    "key": "github:example-collab/repo-35432",
+    "host": "github",
+    "owner": "example-collab",
+    "name": "repo-35432",
+    "full_name": "example-collab/repo-35432",
+    "url": "https://github.com/example-collab/repo-35432",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": "C",
+    "description": "Synthetic copy of an upstream.",
+    "default_branch": "main",
+    "pushed_at": "2026-01-26T02:29:04Z",
+    "updated_at": "2026-01-26T07:51:57Z",
+    "last_commit": "2026-01-18T13:29:00Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-participation"
+    ],
+    "mrs": 1,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 7,
+     "n_contributors": 78,
+     "rank": 6,
+     "share": 0.0019
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 35432"
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "occasional",
+    "evidence": "7 commits (rank 6/78, 0%), 1 PRs/MRs",
+    "tier": "collab",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synopsis 35432"
+   }
+  },
+  {
+   "key": "github:example-collab/repo-3653-mirror-two",
+   "input": {
+    "key": "github:example-collab/repo-3653-mirror-two",
+    "host": "github",
+    "owner": "example-collab",
+    "name": "repo-3653-mirror-two",
+    "full_name": "example-collab/repo-3653-mirror-two",
+    "url": "https://github.com/example-collab/repo-3653-mirror-two",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": "OCaml",
+    "description": "",
+    "default_branch": "main",
+    "pushed_at": "2025-08-11T21:53:56Z",
+    "updated_at": "2025-08-11T17:43:55Z",
+    "last_commit": "2025-07-27T00:19:41Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-user",
+     "gh-affiliation"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 0,
+     "n_contributors": 47
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 3653"
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": null,
+    "evidence": "",
+    "tier": "collab",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synopsis 3653"
+   }
+  },
+  {
+   "key": "github:example-lab/repo-1020-chainx",
+   "input": {
+    "key": "github:example-lab/repo-1020-chainx",
+    "host": "github",
+    "owner": "example-lab",
+    "name": "repo-1020-chainx",
+    "full_name": "example-lab/repo-1020-chainx",
+    "url": "https://github.com/example-lab/repo-1020-chainx",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": "Shell",
+    "description": "Synthetic copy of an upstream.",
+    "default_branch": "master",
+    "pushed_at": "2023-01-08T01:38:28Z",
+    "updated_at": "2023-01-08T00:29:04Z",
+    "last_commit": "2022-12-26T16:00:31Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-participation",
+     "gh-org:example-lab"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "org member",
+    "evidence": "repo in his org",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synthetic copy of an upstream."
+   }
+  },
+  {
+   "key": "github:example-lab/repo-1250",
+   "input": {
+    "key": "github:example-lab/repo-1250",
+    "host": "github",
+    "owner": "example-lab",
+    "name": "repo-1250",
+    "full_name": "example-lab/repo-1250",
+    "url": "https://github.com/example-lab/repo-1250",
+    "private": true,
+    "fork": false,
+    "archived": false,
+    "language": "OCaml",
+    "description": "Library for synthetic data.",
+    "default_branch": "main",
+    "pushed_at": "2023-02-14T00:28:37Z",
+    "updated_at": "2023-02-14T01:22:18Z",
+    "last_commit": null,
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-participation",
+     "gh-org:example-lab"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 1250"
+   },
+   "search_commits": 9,
+   "search_prs": 0,
+   "expected": {
+    "role": "occasional",
+    "evidence": "9 commits",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synopsis 1250"
+   }
+  },
+  {
+   "key": "github:example-lab/repo-27912",
+   "input": {
+    "key": "github:example-lab/repo-27912",
+    "host": "github",
+    "owner": "example-lab",
+    "name": "repo-27912",
+    "full_name": "example-lab/repo-27912",
+    "url": "https://github.com/example-lab/repo-27912",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "Go",
+    "description": "Library for synthetic data.",
+    "default_branch": "master",
+    "pushed_at": "2020-09-28T17:25:58Z",
+    "updated_at": "2020-09-28T17:36:49Z",
+    "last_commit": "2020-09-29T04:28:12Z",
+    "parent": "owner-03/repo-27912",
+    "parent_pushed_at": "2026-08-14T13:19:14Z",
+    "parent_archived": true,
+    "sources": [
+     "gh-user",
+     "gh-collab",
+     "gh-org:example-lab"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 22,
+   "expected": {
+    "role": "main author",
+    "evidence": "22 PRs/MRs",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": "fork of owner-03/repo-27912; maintained: fork (upstream archived)",
+    "is_campaign": false,
+    "what_fallback": "Library for synthetic data."
+   }
+  },
+  {
+   "key": "github:example-lab/repo-9410",
+   "input": {
+    "key": "github:example-lab/repo-9410",
+    "host": "github",
+    "owner": "example-lab",
+    "name": "repo-9410",
+    "full_name": "example-lab/repo-9410",
+    "url": "https://github.com/example-lab/repo-9410",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "C",
+    "description": "A synthetic tool.",
+    "default_branch": "master",
+    "pushed_at": "2026-08-27T02:23:48Z",
+    "updated_at": "2026-08-27T01:47:42Z",
+    "last_commit": "2026-08-09T12:25:23Z",
+    "parent": "owner-03/repo-9410",
+    "parent_pushed_at": "2026-04-21T03:33:26Z",
+    "parent_archived": false,
+    "sources": [
+     "gh-affiliation",
+     "gh-user",
+     "gh-org:example-lab"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 11,
+   "expected": {
+    "role": "main author",
+    "evidence": "11 PRs/MRs",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "active",
+    "fork_note": "fork of owner-03/repo-9410; maintained: fork (his)",
+    "is_campaign": false,
+    "what_fallback": "A synthetic tool."
+   }
+  },
+  {
+   "key": "github:example-misc/repo-0009",
+   "input": {
+    "key": "github:example-misc/repo-0009",
+    "host": "github",
+    "owner": "example-misc",
+    "name": "repo-0009",
+    "full_name": "example-misc/repo-0009",
+    "url": "https://github.com/example-misc/repo-0009",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": "Go",
+    "description": "Library for synthetic data.",
+    "default_branch": "main",
+    "pushed_at": "2026-08-14T10:02:06Z",
+    "updated_at": "2026-08-14T06:06:16Z",
+    "last_commit": "2026-08-02T02:02:38Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-collab",
+     "gh-org:example-misc"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 28,
+    "synopsis": "Synopsis 0009"
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "contributor",
+    "evidence": "28 commits",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "active",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synopsis 0009"
+   }
+  },
+  {
+   "key": "github:example-misc/repo-0035",
+   "input": {
+    "key": "github:example-misc/repo-0035",
+    "host": "github",
+    "owner": "example-misc",
+    "name": "repo-0035",
+    "full_name": "example-misc/repo-0035",
+    "url": "https://github.com/example-misc/repo-0035",
+    "private": true,
+    "fork": false,
+    "archived": true,
+    "language": "Shell",
+    "description": "",
+    "default_branch": "main",
+    "pushed_at": "2024-08-16T02:32:11Z",
+    "updated_at": "2024-08-15T15:31:20Z",
+    "last_commit": "2024-08-02T08:08:02Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-user",
+     "gh-org:example-misc"
+    ],
+    "mrs": 9,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 6,
+     "n_contributors": 22,
+     "rank": 2,
+     "share": 0.0069
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 0035"
+   },
+   "search_commits": 7,
+   "search_prs": 28,
+   "expected": {
+    "role": "contributor",
+    "evidence": "7 commits (rank 2/22, 0%), 37 PRs/MRs",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "archived",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synopsis 0035"
+   }
+  },
+  {
+   "key": "github:example-misc/repo-0201",
+   "input": {
+    "key": "github:example-misc/repo-0201",
+    "host": "github",
+    "owner": "example-misc",
+    "name": "repo-0201",
+    "full_name": "example-misc/repo-0201",
+    "url": "https://github.com/example-misc/repo-0201",
+    "private": true,
+    "fork": true,
+    "archived": false,
+    "language": null,
+    "description": "Library for synthetic data.",
+    "default_branch": "master",
+    "pushed_at": "2021-09-29T23:09:51Z",
+    "updated_at": "2021-09-30T05:56:14Z",
+    "last_commit": "2021-09-15T11:09:28Z",
+    "parent": "other-org/repo-0201",
+    "parent_pushed_at": "2024-05-04T04:19:08Z",
+    "parent_archived": false,
+    "sources": [
+     "gh-user",
+     "gh-affiliation",
+     "gh-org:example-misc"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [
+     "/home/example/work/repo-0201"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": null,
+    "evidence": "",
+    "tier": "2",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": "fork of other-org/repo-0201; maintained: upstream",
+    "is_campaign": false,
+    "what_fallback": "Library for synthetic data."
+   }
+  },
+  {
+   "key": "github:example-org/repo-0377-mirror-two",
+   "input": {
+    "key": "github:example-org/repo-0377-mirror-two",
+    "host": "github",
+    "owner": "example-org",
+    "name": "repo-0377-mirror-two",
+    "full_name": "example-org/repo-0377-mirror-two",
+    "url": "https://github.com/example-org/repo-0377-mirror-two",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": "TypeScript",
+    "description": "A synthetic tool.",
+    "default_branch": "master",
+    "pushed_at": "2026-02-16T17:38:55Z",
+    "updated_at": "2026-02-16T15:06:40Z",
+    "last_commit": "2026-02-07T05:30:23Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-user",
+     "gh-org:example-org"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 0,
+     "n_contributors": 45
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 0377"
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "org member",
+    "evidence": "repo in his org",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synopsis 0377"
+   }
+  },
+  {
+   "key": "github:example-user/repo-0348",
+   "input": {
+    "key": "github:example-user/repo-0348",
+    "host": "github",
+    "owner": "example-user",
+    "name": "repo-0348",
+    "full_name": "example-user/repo-0348",
+    "url": "https://github.com/example-user/repo-0348",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": "TypeScript",
+    "description": "",
+    "default_branch": "master",
+    "pushed_at": "2023-03-09T03:36:42Z",
+    "updated_at": "2023-03-09T04:59:54Z",
+    "last_commit": null,
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-affiliation"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 28,
+    "synopsis": "Synopsis 0348"
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "owner",
+    "evidence": "28 commits",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synopsis 0348"
+   }
+  },
+  {
+   "key": "github:example-user/repo-0977",
+   "input": {
+    "key": "github:example-user/repo-0977",
+    "host": "github",
+    "owner": "example-user",
+    "name": "repo-0977",
+    "full_name": "example-user/repo-0977",
+    "url": "https://github.com/example-user/repo-0977",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": null,
+    "description": "Library for synthetic data.",
+    "default_branch": "main",
+    "pushed_at": "2020-09-14T19:29:50Z",
+    "updated_at": "2020-09-14T19:16:23Z",
+    "last_commit": "2020-08-17T03:00:37Z",
+    "parent": "owner-03/repo-0977",
+    "parent_pushed_at": "2026-04-15T21:43:23Z",
+    "parent_archived": false,
+    "sources": [
+     "gh-collab"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": null,
+    "evidence": "",
+    "tier": "fork",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": "fork of owner-03/repo-0977; maintained: upstream",
+    "is_campaign": false,
+    "what_fallback": "Library for synthetic data."
+   }
+  },
+  {
+   "key": "github:example-user/repo-12268-chainx",
+   "input": {
+    "key": "github:example-user/repo-12268-chainx",
+    "host": "github",
+    "owner": "example-user",
+    "name": "repo-12268-chainx",
+    "full_name": "example-user/repo-12268-chainx",
+    "url": "https://github.com/example-user/repo-12268-chainx",
+    "private": true,
+    "fork": true,
+    "archived": false,
+    "language": "Shell",
+    "description": "Library for synthetic data.",
+    "default_branch": "master",
+    "pushed_at": "2020-04-02T21:25:59Z",
+    "updated_at": "2020-04-02T12:26:49Z",
+    "last_commit": "2020-03-11T22:23:16Z",
+    "parent": "owner-03/repo-12268-chainx",
+    "parent_pushed_at": "2026-07-02T12:16:36Z",
+    "parent_archived": false,
+    "sources": [
+     "gh-user"
+    ],
+    "mrs": 2,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 5,
+    "synopsis": "Synopsis 12268"
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "occasional",
+    "evidence": "5 commits, 2 PRs/MRs",
+    "tier": "fork",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": "fork of owner-03/repo-12268-chainx; maintained: upstream",
+    "is_campaign": false,
+    "what_fallback": "Synopsis 12268"
+   }
+  },
+  {
+   "key": "github:example-user/repo-1716-chainx",
+   "input": {
+    "key": "github:example-user/repo-1716-chainx",
+    "host": "github",
+    "owner": "example-user",
+    "name": "repo-1716-chainx",
+    "full_name": "example-user/repo-1716-chainx",
+    "url": "https://github.com/example-user/repo-1716-chainx",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "OCaml",
+    "description": "Library for synthetic data.",
+    "default_branch": "main",
+    "pushed_at": "2026-08-22T04:14:45Z",
+    "updated_at": "2026-08-21T13:26:28Z",
+    "last_commit": "2026-08-03T13:13:43Z",
+    "parent": "chainx/repo-1716-chainx",
+    "parent_pushed_at": "2026-08-25T11:52:59Z",
+    "parent_archived": false,
+    "sources": [
+     "gh-participation"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 1716"
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": null,
+    "evidence": "",
+    "tier": "fork",
+    "computed_domain": null,
+    "status": "active",
+    "fork_note": "fork of chainx/repo-1716-chainx; maintained: upstream",
+    "is_campaign": false,
+    "what_fallback": "Synopsis 1716"
+   }
+  },
+  {
+   "key": "github:example-user/repo-30609-mirror-two",
+   "input": {
+    "key": "github:example-user/repo-30609-mirror-two",
+    "host": "github",
+    "owner": "example-user",
+    "name": "repo-30609-mirror-two",
+    "full_name": "example-user/repo-30609-mirror-two",
+    "url": "https://github.com/example-user/repo-30609-mirror-two",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "C",
+    "description": "Library for synthetic data.",
+    "default_branch": "master",
+    "pushed_at": "2024-09-05T13:26:17Z",
+    "updated_at": "2024-09-06T07:10:19Z",
+    "last_commit": "2024-08-30T19:53:55Z",
+    "parent": "owner-07/repo-30609-mirror-two",
+    "parent_pushed_at": "2022-03-02T21:13:20Z",
+    "parent_archived": false,
+    "sources": [
+     "gh-collab",
+     "gh-user"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 0,
+     "n_contributors": 78
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": null,
+    "evidence": "",
+    "tier": "fork",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": "fork of owner-07/repo-30609-mirror-two; maintained: fork (his)",
+    "is_campaign": false,
+    "what_fallback": "Library for synthetic data."
+   }
+  },
+  {
+   "key": "github:example-user/repo-6495",
+   "input": {
+    "key": "github:example-user/repo-6495",
+    "host": "github",
+    "owner": "example-user",
+    "name": "repo-6495",
+    "full_name": "example-user/repo-6495",
+    "url": "https://github.com/example-user/repo-6495",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "C",
+    "description": "Synthetic copy of an upstream.",
+    "default_branch": "main",
+    "pushed_at": "2020-10-07T09:11:28Z",
+    "updated_at": "2020-10-06T12:16:15Z",
+    "last_commit": null,
+    "parent": "owner-03/repo-6495",
+    "parent_pushed_at": "2020-02-10T21:32:07Z",
+    "parent_archived": false,
+    "sources": [
+     "gh-participation",
+     "gh-collab"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 372,
+     "n_contributors": 8,
+     "rank": 2,
+     "share": 0.0505
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 47,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "contributor",
+    "evidence": "372 commits (rank 2/8, 5%)",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": "fork of owner-03/repo-6495; maintained: fork (his)",
+    "is_campaign": false,
+    "what_fallback": "Synthetic copy of an upstream."
+   }
+  },
+  {
+   "key": "github:other-org/repo-0064",
+   "input": {
+    "key": "github:other-org/repo-0064",
+    "host": "github",
+    "owner": "other-org",
+    "name": "repo-0064",
+    "full_name": "other-org/repo-0064",
+    "url": "https://github.com/other-org/repo-0064",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": "Python",
+    "description": "Synthetic copy of an upstream.",
+    "default_branch": "master",
+    "pushed_at": "2025-08-12T00:59:17Z",
+    "updated_at": "2025-08-12T04:57:05Z",
+    "last_commit": "2025-07-20T23:04:15Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-affiliation"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 37,
+     "n_contributors": 44,
+     "rank": 24,
+     "share": 0.4966
+    },
+    "local_paths": [
+     "/home/example/work/repo-0064"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 0064"
+   },
+   "search_commits": 8,
+   "search_prs": 0,
+   "expected": {
+    "role": "main author",
+    "evidence": "37 commits (rank 24/44, 49%)",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synopsis 0064"
+   }
+  },
+  {
+   "key": "github:owner-01/repo-0916",
+   "input": {
+    "key": "github:owner-01/repo-0916",
+    "host": "github",
+    "owner": "owner-01",
+    "name": "repo-0916",
+    "full_name": "owner-01/repo-0916",
+    "url": "https://github.com/owner-01/repo-0916",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": "OCaml",
+    "description": "A synthetic tool.",
+    "default_branch": "master",
+    "pushed_at": "2026-05-03T14:17:29Z",
+    "updated_at": "2026-05-03T18:27:29Z",
+    "last_commit": null,
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-user"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 8,
+     "n_contributors": 44
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 0916"
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "occasional",
+    "evidence": "8 commits",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synopsis 0916"
+   }
+  },
+  {
+   "key": "github:owner-01/repo-2335",
+   "input": {
+    "key": "github:owner-01/repo-2335",
+    "host": "github",
+    "owner": "owner-01",
+    "name": "repo-2335",
+    "full_name": "owner-01/repo-2335",
+    "url": "https://github.com/owner-01/repo-2335",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "Rust",
+    "description": "Synthetic copy of an upstream.",
+    "default_branch": "master",
+    "pushed_at": "2021-09-29T19:23:56Z",
+    "updated_at": "2021-09-30T03:26:08Z",
+    "last_commit": "2021-09-19T00:57:28Z",
+    "parent": "owner-03/repo-2335",
+    "parent_pushed_at": "2019-12-21T11:27:05Z",
+    "parent_archived": false,
+    "sources": [
+     "gh-collab",
+     "gh-participation"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 37,
+     "n_contributors": 25,
+     "rank": 22,
+     "share": 0.0144
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 21,
+    "synopsis": "Synopsis 2335"
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "inherited",
+    "evidence": "37 commits (rank 22/25, 1%) — historical commits carried by a fork/mirror",
+    "tier": "inherited",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": "fork of owner-03/repo-2335; maintained: fork (his)",
+    "is_campaign": false,
+    "what_fallback": "Synopsis 2335"
+   }
+  },
+  {
+   "key": "github:owner-02/repo-0129",
+   "input": {
+    "key": "github:owner-02/repo-0129",
+    "host": "github",
+    "owner": "owner-02",
+    "name": "repo-0129",
+    "full_name": "owner-02/repo-0129",
+    "url": "https://github.com/owner-02/repo-0129",
+    "private": true,
+    "fork": false,
+    "archived": false,
+    "language": "Shell",
+    "description": "A synthetic tool.",
+    "default_branch": "main",
+    "pushed_at": "2020-06-23T04:50:40Z",
+    "updated_at": "2020-06-23T02:12:09Z",
+    "last_commit": null,
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-affiliation",
+     "gh-participation"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 64,
+     "n_contributors": 31,
+     "rank": 18,
+     "share": 0.3138
+    },
+    "local_paths": [
+     "/home/example/work/repo-0129"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 29,
+   "expected": {
+    "role": "contributor",
+    "evidence": "64 commits (rank 18/31, 31%), 29 PRs/MRs",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "A synthetic tool."
+   }
+  },
+  {
+   "key": "github:owner-05/repo-0054",
+   "input": {
+    "key": "github:owner-05/repo-0054",
+    "host": "github",
+    "owner": "owner-05",
+    "name": "repo-0054",
+    "full_name": "owner-05/repo-0054",
+    "url": "https://github.com/owner-05/repo-0054",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "Shell",
+    "description": "",
+    "default_branch": "master",
+    "pushed_at": "2026-05-05T20:16:51Z",
+    "updated_at": "2026-05-05T14:07:34Z",
+    "last_commit": "2026-05-04T05:31:38Z",
+    "parent": "owner-07/repo-0054",
+    "parent_pushed_at": "2023-07-18T02:50:57Z",
+    "parent_archived": false,
+    "sources": [
+     "gh-collab",
+     "gh-user"
+    ],
+    "mrs": 3,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 112,
+     "n_contributors": 28,
+     "rank": 12,
+     "share": 0.0129
+    },
+    "local_paths": [
+     "/home/example/work/repo-0054"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 0054"
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "contributor",
+    "evidence": "112 commits (rank 12/28, 1%), 3 PRs/MRs",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": "fork of owner-07/repo-0054; maintained: fork (his)",
+    "is_campaign": false,
+    "what_fallback": "Synopsis 0054"
+   }
+  },
+  {
+   "key": "github:owner-05/repo-0057-chainx",
+   "input": {
+    "key": "github:owner-05/repo-0057-chainx",
+    "host": "github",
+    "owner": "owner-05",
+    "name": "repo-0057-chainx",
+    "full_name": "owner-05/repo-0057-chainx",
+    "url": "https://github.com/owner-05/repo-0057-chainx",
+    "private": false,
+    "fork": false,
+    "archived": true,
+    "language": "Go",
+    "description": "",
+    "default_branch": "main",
+    "pushed_at": "2025-08-22T08:06:58Z",
+    "updated_at": "2025-08-22T11:02:30Z",
+    "last_commit": "2025-07-25T08:09:40Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-affiliation"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 1,
+     "n_contributors": 56,
+     "rank": 42,
+     "share": 0.8256
+    },
+    "local_paths": [
+     "/home/example/work/repo-0057-chainx"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "main author",
+    "evidence": "1 commits (rank 42/56, 82%)",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "archived",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "—"
+   }
+  },
+  {
+   "key": "github:owner-05/repo-0062",
+   "input": {
+    "key": "github:owner-05/repo-0062",
+    "host": "github",
+    "owner": "owner-05",
+    "name": "repo-0062",
+    "full_name": "owner-05/repo-0062",
+    "url": "https://github.com/owner-05/repo-0062",
+    "private": false,
+    "fork": false,
+    "archived": true,
+    "language": "Rust",
+    "description": "Synthetic copy of an upstream.",
+    "default_branch": "main",
+    "pushed_at": "2023-04-29T10:57:12Z",
+    "updated_at": "2023-04-29T07:25:13Z",
+    "last_commit": "2023-04-01T00:25:48Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-affiliation"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 0062"
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": null,
+    "evidence": "",
+    "tier": "2",
+    "computed_domain": null,
+    "status": "archived",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synopsis 0062"
+   }
+  },
+  {
+   "key": "github:owner-05/repo-1371-mirror-two",
+   "input": {
+    "key": "github:owner-05/repo-1371-mirror-two",
+    "host": "github",
+    "owner": "owner-05",
+    "name": "repo-1371-mirror-two",
+    "full_name": "owner-05/repo-1371-mirror-two",
+    "url": "https://github.com/owner-05/repo-1371-mirror-two",
+    "private": true,
+    "fork": true,
+    "archived": false,
+    "language": "Python",
+    "description": "A synthetic tool.",
+    "default_branch": "main",
+    "pushed_at": "2022-10-01T04:38:16Z",
+    "updated_at": "2022-09-30T15:49:57Z",
+    "last_commit": "2022-09-06T19:33:51Z",
+    "parent": "other-org/repo-1371-mirror-two",
+    "parent_pushed_at": "2022-05-07T17:23:21Z",
+    "parent_archived": false,
+    "sources": [
+     "gh-collab"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 7,
+     "n_contributors": 33,
+     "rank": 17,
+     "share": 0.7898
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "main author",
+    "evidence": "7 commits (rank 17/33, 78%)",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": "fork of other-org/repo-1371-mirror-two; maintained: fork (his)",
+    "is_campaign": false,
+    "what_fallback": "A synthetic tool."
+   }
+  },
+  {
+   "key": "github:owner-06/repo-0147-chainx",
+   "input": {
+    "key": "github:owner-06/repo-0147-chainx",
+    "host": "github",
+    "owner": "owner-06",
+    "name": "repo-0147-chainx",
+    "full_name": "owner-06/repo-0147-chainx",
+    "url": "https://github.com/owner-06/repo-0147-chainx",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": "Python",
+    "description": "Synthetic copy of an upstream.",
+    "default_branch": "master",
+    "pushed_at": "2024-01-30T18:47:02Z",
+    "updated_at": "2024-01-30T22:37:25Z",
+    "last_commit": "2024-01-20T23:45:29Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-participation"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 34,
+     "n_contributors": 12,
+     "rank": 6,
+     "share": 0.0149
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 3,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "inherited",
+    "evidence": "34 commits (rank 6/12, 1%) — historical commits carried by a fork/mirror",
+    "tier": "inherited",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synthetic copy of an upstream."
+   }
+  },
+  {
+   "key": "github:owner-06/repo-1041",
+   "input": {
+    "key": "github:owner-06/repo-1041",
+    "host": "github",
+    "owner": "owner-06",
+    "name": "repo-1041",
+    "full_name": "owner-06/repo-1041",
+    "url": "https://github.com/owner-06/repo-1041",
+    "private": false,
+    "fork": false,
+    "archived": true,
+    "language": null,
+    "description": "",
+    "default_branch": "main",
+    "pushed_at": "2026-08-31T02:22:49Z",
+    "updated_at": "2026-08-31T11:16:17Z",
+    "last_commit": null,
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-participation"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 7,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "occasional",
+    "evidence": "7 commits",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "archived",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "—"
+   }
+  },
+  {
+   "key": "github:owner-07/repo-0167",
+   "input": {
+    "key": "github:owner-07/repo-0167",
+    "host": "github",
+    "owner": "owner-07",
+    "name": "repo-0167",
+    "full_name": "owner-07/repo-0167",
+    "url": "https://github.com/owner-07/repo-0167",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": "OCaml",
+    "description": "",
+    "default_branch": "master",
+    "pushed_at": "2026-08-23T09:40:31Z",
+    "updated_at": "2026-08-22T15:25:25Z",
+    "last_commit": "2026-08-10T09:02:50Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-collab",
+     "gh-affiliation"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 363,
+     "n_contributors": 79,
+     "rank": 56,
+     "share": 0.0026
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 0167"
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "contributor",
+    "evidence": "363 commits (rank 56/79, 0%)",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "active",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synopsis 0167"
+   }
+  },
+  {
+   "key": "github:owner-07/repo-2685",
+   "input": {
+    "key": "github:owner-07/repo-2685",
+    "host": "github",
+    "owner": "owner-07",
+    "name": "repo-2685",
+    "full_name": "owner-07/repo-2685",
+    "url": "https://github.com/owner-07/repo-2685",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": "C",
+    "description": "Synthetic copy of an upstream.",
+    "default_branch": "master",
+    "pushed_at": "2026-01-17T16:58:24Z",
+    "updated_at": "2026-01-17T16:47:53Z",
+    "last_commit": null,
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-collab"
+    ],
+    "mrs": 1,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 4,
+     "n_contributors": 13,
+     "rank": 12,
+     "share": 0.0046
+    },
+    "local_paths": [
+     "/home/example/work/repo-2685"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "occasional",
+    "evidence": "4 commits (rank 12/13, 0%), 1 PRs/MRs",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synthetic copy of an upstream."
+   }
+  },
+  {
+   "key": "github:owner-08/repo-0018",
+   "input": {
+    "key": "github:owner-08/repo-0018",
+    "host": "github",
+    "owner": "owner-08",
+    "name": "repo-0018",
+    "full_name": "owner-08/repo-0018",
+    "url": "https://github.com/owner-08/repo-0018",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": "Shell",
+    "description": "Synthetic copy of an upstream.",
+    "default_branch": "main",
+    "pushed_at": "2020-01-08T07:13:08Z",
+    "updated_at": "2020-01-08T03:00:23Z",
+    "last_commit": "2019-12-25T00:41:44Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-affiliation"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 4,
+     "n_contributors": 56,
+     "rank": 2,
+     "share": 0.9721
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 30,
+    "synopsis": "Synopsis 0018"
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "main author",
+    "evidence": "30 commits (rank 2/56, 97%)",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synopsis 0018"
+   }
+  },
+  {
+   "key": "github:owner-08/repo-0039",
+   "input": {
+    "key": "github:owner-08/repo-0039",
+    "host": "github",
+    "owner": "owner-08",
+    "name": "repo-0039",
+    "full_name": "owner-08/repo-0039",
+    "url": "https://github.com/owner-08/repo-0039",
+    "private": true,
+    "fork": true,
+    "archived": false,
+    "language": "Shell",
+    "description": "Synthetic copy of an upstream.",
+    "default_branch": "master",
+    "pushed_at": "2026-01-24T17:12:24Z",
+    "updated_at": "2026-01-24T23:55:36Z",
+    "last_commit": "2026-01-13T10:54:30Z",
+    "parent": "chainx/repo-0039",
+    "parent_pushed_at": "2026-07-24T12:31:35Z",
+    "parent_archived": false,
+    "sources": [
+     "gh-participation",
+     "gh-user"
+    ],
+    "mrs": 56,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 22,
+    "synopsis": null
+   },
+   "search_commits": 5,
+   "search_prs": 0,
+   "expected": {
+    "role": "contributor",
+    "evidence": "22 commits, 56 PRs/MRs",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": "fork of chainx/repo-0039; maintained: upstream",
+    "is_campaign": false,
+    "what_fallback": "Synthetic copy of an upstream."
+   }
+  },
+  {
+   "key": "github:owner-08/repo-0480",
+   "input": {
+    "key": "github:owner-08/repo-0480",
+    "host": "github",
+    "owner": "owner-08",
+    "name": "repo-0480",
+    "full_name": "owner-08/repo-0480",
+    "url": "https://github.com/owner-08/repo-0480",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": null,
+    "description": "Library for synthetic data.",
+    "default_branch": "main",
+    "pushed_at": "2020-04-26T16:44:27Z",
+    "updated_at": "2020-04-26T16:35:41Z",
+    "last_commit": "2020-04-19T01:32:31Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gh-affiliation"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 248,
+     "n_contributors": 7,
+     "rank": 3,
+     "share": 0.0147
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "contributor",
+    "evidence": "248 commits (rank 3/7, 1%)",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Library for synthetic data."
+   }
+  },
+  {
+   "key": "gitlab:acme-campaigns/c1/repo-0242",
+   "input": {
+    "key": "gitlab:acme-campaigns/c1/repo-0242",
+    "host": "gitlab",
+    "owner": "acme-campaigns/c1",
+    "name": "repo-0242",
+    "full_name": "acme-campaigns/c1/repo-0242",
+    "url": "https://gitlab.com/acme-campaigns/c1/repo-0242",
+    "private": true,
+    "fork": false,
+    "archived": false,
+    "language": "Go",
+    "description": "Library for synthetic data.",
+    "default_branch": "main",
+    "pushed_at": "2026-07-06T04:31:49Z",
+    "updated_at": "2026-07-06T11:08:36Z",
+    "last_commit": "2026-07-04T03:46:30Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gl-contributed"
+    ],
+    "mrs": 0,
+    "gl_contributed": true,
+    "contrib": {
+     "commits": 186,
+     "n_contributors": 59,
+     "rank": 58,
+     "share": 0.1028
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 19,
+    "synopsis": "Synopsis 0242",
+    "gl_id": 5242
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "contributor",
+    "evidence": "186 commits (rank 58/59, 10%)",
+    "tier": "1",
+    "computed_domain": "Security research",
+    "status": "active",
+    "fork_note": null,
+    "is_campaign": true,
+    "what_fallback": "Synopsis 0242"
+   }
+  },
+  {
+   "key": "gitlab:acme-campaigns/c1/repo-0859",
+   "input": {
+    "key": "gitlab:acme-campaigns/c1/repo-0859",
+    "host": "gitlab",
+    "owner": "acme-campaigns/c1",
+    "name": "repo-0859",
+    "full_name": "acme-campaigns/c1/repo-0859",
+    "url": "https://gitlab.com/acme-campaigns/c1/repo-0859",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": "Shell",
+    "description": "A synthetic tool.",
+    "default_branch": "master",
+    "pushed_at": "2026-08-17T19:49:37Z",
+    "updated_at": "2026-08-18T06:13:23Z",
+    "last_commit": "2026-08-08T02:57:47Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gl-group:acme"
+    ],
+    "mrs": 0,
+    "gl_contributed": true,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null,
+    "gl_id": 5859
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "occasional",
+    "evidence": "GitLab contributed-project",
+    "tier": "1",
+    "computed_domain": "Security research",
+    "status": "active",
+    "fork_note": null,
+    "is_campaign": true,
+    "what_fallback": "A synthetic tool."
+   }
+  },
+  {
+   "key": "gitlab:acme-campaigns/c1/repo-2381-mirror-two",
+   "input": {
+    "key": "gitlab:acme-campaigns/c1/repo-2381-mirror-two",
+    "host": "gitlab",
+    "owner": "acme-campaigns/c1",
+    "name": "repo-2381-mirror-two",
+    "full_name": "acme-campaigns/c1/repo-2381-mirror-two",
+    "url": "https://gitlab.com/acme-campaigns/c1/repo-2381-mirror-two",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "TypeScript",
+    "description": "Synthetic copy of an upstream.",
+    "default_branch": "master",
+    "pushed_at": "2026-07-02T06:31:34Z",
+    "updated_at": "2026-07-02T02:22:04Z",
+    "last_commit": "2026-06-20T02:32:06Z",
+    "parent": "owner-03/repo-2381-mirror-two",
+    "parent_pushed_at": "2020-09-24T19:05:24Z",
+    "parent_archived": false,
+    "sources": [
+     "gl-contributed"
+    ],
+    "mrs": 4,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 15,
+    "synopsis": "Synopsis 2381",
+    "gl_id": 7381
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "contributor",
+    "evidence": "15 commits, 4 PRs/MRs",
+    "tier": "1",
+    "computed_domain": "Security research",
+    "status": "active",
+    "fork_note": "fork of owner-03/repo-2381-mirror-two; maintained: fork (his)",
+    "is_campaign": true,
+    "what_fallback": "Synopsis 2381"
+   }
+  },
+  {
+   "key": "gitlab:acme-campaigns/c1/repo-58840-mirror-one",
+   "input": {
+    "key": "gitlab:acme-campaigns/c1/repo-58840-mirror-one",
+    "host": "gitlab",
+    "owner": "acme-campaigns/c1",
+    "name": "repo-58840-mirror-one",
+    "full_name": "acme-campaigns/c1/repo-58840-mirror-one",
+    "url": "https://gitlab.com/acme-campaigns/c1/repo-58840-mirror-one",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "Python",
+    "description": "Library for synthetic data.",
+    "default_branch": "master",
+    "pushed_at": "2026-08-31T00:13:08Z",
+    "updated_at": "2026-08-30T12:58:40Z",
+    "last_commit": "2026-08-27T02:15:30Z",
+    "parent": "other-org/repo-58840-mirror-one",
+    "parent_pushed_at": "2025-09-26T00:53:58Z",
+    "parent_archived": true,
+    "sources": [
+     "gl-mr"
+    ],
+    "mrs": 1,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 3,
+     "n_contributors": 8
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 1,
+    "synopsis": null,
+    "gl_id": 63840
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "occasional",
+    "evidence": "3 commits, 1 PRs/MRs",
+    "tier": "1",
+    "computed_domain": "Security research",
+    "status": "active",
+    "fork_note": "fork of other-org/repo-58840-mirror-one; maintained: fork (upstream archived)",
+    "is_campaign": true,
+    "what_fallback": "Library for synthetic data."
+   }
+  },
+  {
+   "key": "gitlab:acme-campaigns/repo-0393-mirror-one",
+   "input": {
+    "key": "gitlab:acme-campaigns/repo-0393-mirror-one",
+    "host": "gitlab",
+    "owner": "acme-campaigns",
+    "name": "repo-0393-mirror-one",
+    "full_name": "acme-campaigns/repo-0393-mirror-one",
+    "url": "https://gitlab.com/acme-campaigns/repo-0393-mirror-one",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": "TypeScript",
+    "description": "A synthetic tool.",
+    "default_branch": "main",
+    "pushed_at": "2026-07-31T20:45:31Z",
+    "updated_at": "2026-07-31T23:03:42Z",
+    "last_commit": "2026-07-07T22:26:00Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gl-user",
+     "gl-group:acme-campaigns"
+    ],
+    "mrs": 2,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 65,
+     "n_contributors": 26
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null,
+    "gl_id": 5393
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "contributor",
+    "evidence": "65 commits, 2 PRs/MRs",
+    "tier": "1",
+    "computed_domain": "Security research",
+    "status": "active",
+    "fork_note": null,
+    "is_campaign": true,
+    "what_fallback": "A synthetic tool."
+   }
+  },
+  {
+   "key": "gitlab:acme-campaigns/repo-10802-chainx",
+   "input": {
+    "key": "gitlab:acme-campaigns/repo-10802-chainx",
+    "host": "gitlab",
+    "owner": "acme-campaigns",
+    "name": "repo-10802-chainx",
+    "full_name": "acme-campaigns/repo-10802-chainx",
+    "url": "https://gitlab.com/acme-campaigns/repo-10802-chainx",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "Shell",
+    "description": "",
+    "default_branch": "main",
+    "pushed_at": "2026-07-19T14:39:19Z",
+    "updated_at": "2026-07-20T04:32:58Z",
+    "last_commit": null,
+    "parent": "owner-07/repo-10802-chainx",
+    "parent_pushed_at": "2024-03-30T16:38:49Z",
+    "parent_archived": false,
+    "sources": [
+     "gl-group:acme-campaigns",
+     "gl-group:acme"
+    ],
+    "mrs": 1,
+    "gl_contributed": true,
+    "contrib": {
+     "commits": 0,
+     "n_contributors": 33
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null,
+    "gl_id": 15802
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "occasional",
+    "evidence": "1 PRs/MRs, GitLab contributed-project",
+    "tier": "1",
+    "computed_domain": "Security research",
+    "status": "active",
+    "fork_note": "fork of owner-07/repo-10802-chainx; maintained: fork (his)",
+    "is_campaign": true,
+    "what_fallback": "—"
+   }
+  },
+  {
+   "key": "gitlab:acme-campaigns/repo-1415-mirror-two",
+   "input": {
+    "key": "gitlab:acme-campaigns/repo-1415-mirror-two",
+    "host": "gitlab",
+    "owner": "acme-campaigns",
+    "name": "repo-1415-mirror-two",
+    "full_name": "acme-campaigns/repo-1415-mirror-two",
+    "url": "https://gitlab.com/acme-campaigns/repo-1415-mirror-two",
+    "private": true,
+    "fork": false,
+    "archived": false,
+    "language": "C",
+    "description": "",
+    "default_branch": "main",
+    "pushed_at": "2020-06-01T17:45:17Z",
+    "updated_at": "2020-06-02T06:46:58Z",
+    "last_commit": "2020-05-16T15:33:08Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gl-group:acme-campaigns"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 3,
+     "n_contributors": 51,
+     "rank": 23,
+     "share": 0.0077
+    },
+    "local_paths": [
+     "/home/example/work/repo-1415-mirror-two"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 47,
+    "synopsis": "Synopsis 1415",
+    "gl_id": 6415
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "inherited",
+    "evidence": "47 commits (rank 23/51, 0%) — historical commits carried by a fork/mirror",
+    "tier": "inherited",
+    "computed_domain": "Security research",
+    "status": "stale",
+    "fork_note": null,
+    "is_campaign": true,
+    "what_fallback": "Synopsis 1415"
+   }
+  },
+  {
+   "key": "gitlab:acme-campaigns/repo-15245-mirror-one",
+   "input": {
+    "key": "gitlab:acme-campaigns/repo-15245-mirror-one",
+    "host": "gitlab",
+    "owner": "acme-campaigns",
+    "name": "repo-15245-mirror-one",
+    "full_name": "acme-campaigns/repo-15245-mirror-one",
+    "url": "https://gitlab.com/acme-campaigns/repo-15245-mirror-one",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "TypeScript",
+    "description": "",
+    "default_branch": "main",
+    "pushed_at": "2026-03-11T05:43:27Z",
+    "updated_at": "2026-03-10T21:50:30Z",
+    "last_commit": null,
+    "parent": "acme/repo-15245-mirror-one",
+    "parent_pushed_at": "2025-08-21T13:37:34Z",
+    "parent_archived": true,
+    "sources": [
+     "gl-contributed",
+     "gl-group:acme-campaigns"
+    ],
+    "mrs": 4,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 6,
+     "n_contributors": 13,
+     "rank": 12,
+     "share": 0.6677
+    },
+    "local_paths": [
+     "/home/example/work/repo-15245-mirror-one"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 13,
+    "synopsis": null,
+    "gl_id": 20245
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "main author",
+    "evidence": "13 commits (rank 12/13, 66%), 4 PRs/MRs",
+    "tier": "1",
+    "computed_domain": "Security research",
+    "status": "dormant",
+    "fork_note": "fork of acme/repo-15245-mirror-one; maintained: fork (upstream archived)",
+    "is_campaign": true,
+    "what_fallback": "—"
+   }
+  },
+  {
+   "key": "gitlab:acme-campaigns/repo-2820-chainx",
+   "input": {
+    "key": "gitlab:acme-campaigns/repo-2820-chainx",
+    "host": "gitlab",
+    "owner": "acme-campaigns",
+    "name": "repo-2820-chainx",
+    "full_name": "acme-campaigns/repo-2820-chainx",
+    "url": "https://gitlab.com/acme-campaigns/repo-2820-chainx",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "OCaml",
+    "description": "Synthetic copy of an upstream.",
+    "default_branch": "master",
+    "pushed_at": "2026-07-23T18:16:40Z",
+    "updated_at": "2026-07-24T04:50:33Z",
+    "last_commit": "2026-07-15T05:02:32Z",
+    "parent": "owner-03/repo-2820-chainx",
+    "parent_pushed_at": "2026-08-22T03:56:02Z",
+    "parent_archived": false,
+    "sources": [
+     "gl-group:acme"
+    ],
+    "mrs": 0,
+    "gl_contributed": true,
+    "contrib": {
+     "commits": 0,
+     "n_contributors": 26
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 2,
+    "synopsis": null,
+    "gl_id": 7820
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "inherited",
+    "evidence": "2 commits — historical commits carried by a fork/mirror",
+    "tier": "inherited",
+    "computed_domain": "Security research",
+    "status": "active",
+    "fork_note": "fork of owner-03/repo-2820-chainx; maintained: upstream",
+    "is_campaign": true,
+    "what_fallback": "Synthetic copy of an upstream."
+   }
+  },
+  {
+   "key": "gitlab:acme-campaigns/repo-6418",
+   "input": {
+    "key": "gitlab:acme-campaigns/repo-6418",
+    "host": "gitlab",
+    "owner": "acme-campaigns",
+    "name": "repo-6418",
+    "full_name": "acme-campaigns/repo-6418",
+    "url": "https://gitlab.com/acme-campaigns/repo-6418",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "Go",
+    "description": "",
+    "default_branch": "main",
+    "pushed_at": "2026-03-12T22:10:30Z",
+    "updated_at": "2026-03-13T01:32:40Z",
+    "last_commit": "2026-02-19T07:45:24Z",
+    "parent": "owner-07/repo-6418",
+    "parent_pushed_at": "2026-03-27T06:39:04Z",
+    "parent_archived": true,
+    "sources": [
+     "gl-mr"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 3,
+     "n_contributors": 48,
+     "rank": 6,
+     "share": 0.377
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 18,
+    "synopsis": null,
+    "gl_id": 11418
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "contributor",
+    "evidence": "18 commits (rank 6/48, 37%)",
+    "tier": "1",
+    "computed_domain": "Security research",
+    "status": "dormant",
+    "fork_note": "fork of owner-07/repo-6418; maintained: fork (upstream archived)",
+    "is_campaign": true,
+    "what_fallback": "—"
+   }
+  },
+  {
+   "key": "gitlab:acme/private/repo-0382",
+   "input": {
+    "key": "gitlab:acme/private/repo-0382",
+    "host": "gitlab",
+    "owner": "acme/private",
+    "name": "repo-0382",
+    "full_name": "acme/private/repo-0382",
+    "url": "https://gitlab.com/acme/private/repo-0382",
+    "private": true,
+    "fork": false,
+    "archived": true,
+    "language": "Python",
+    "description": "A synthetic tool.",
+    "default_branch": "master",
+    "pushed_at": "2026-04-28T21:31:51Z",
+    "updated_at": "2026-04-28T18:50:06Z",
+    "last_commit": null,
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gl-user",
+     "gl-mr"
+    ],
+    "mrs": 4,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 5,
+     "n_contributors": 45,
+     "rank": 33,
+     "share": 0.7996
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null,
+    "gl_id": 5382
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "main author",
+    "evidence": "5 commits (rank 33/45, 79%), 4 PRs/MRs",
+    "tier": "1",
+    "computed_domain": "Security research",
+    "status": "archived",
+    "fork_note": null,
+    "is_campaign": true,
+    "what_fallback": "A synthetic tool."
+   }
+  },
+  {
+   "key": "gitlab:acme/private/repo-10680",
+   "input": {
+    "key": "gitlab:acme/private/repo-10680",
+    "host": "gitlab",
+    "owner": "acme/private",
+    "name": "repo-10680",
+    "full_name": "acme/private/repo-10680",
+    "url": "https://gitlab.com/acme/private/repo-10680",
+    "private": true,
+    "fork": true,
+    "archived": false,
+    "language": "TypeScript",
+    "description": "Library for synthetic data.",
+    "default_branch": "master",
+    "pushed_at": "2024-03-19T03:04:09Z",
+    "updated_at": "2024-03-18T19:35:32Z",
+    "last_commit": "2024-02-29T08:55:14Z",
+    "parent": "chainx/repo-10680",
+    "parent_pushed_at": "2026-08-27T21:45:17Z",
+    "parent_archived": false,
+    "sources": [
+     "gl-contributed"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 160,
+     "n_contributors": 66,
+     "rank": 40,
+     "share": 0.3925
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null,
+    "gl_id": 15680
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "contributor",
+    "evidence": "160 commits (rank 40/66, 39%)",
+    "tier": "1",
+    "computed_domain": "Security research",
+    "status": "stale",
+    "fork_note": "fork of chainx/repo-10680; maintained: upstream",
+    "is_campaign": true,
+    "what_fallback": "Library for synthetic data."
+   }
+  },
+  {
+   "key": "gitlab:acme/private/repo-4297",
+   "input": {
+    "key": "gitlab:acme/private/repo-4297",
+    "host": "gitlab",
+    "owner": "acme/private",
+    "name": "repo-4297",
+    "full_name": "acme/private/repo-4297",
+    "url": "https://gitlab.com/acme/private/repo-4297",
+    "private": true,
+    "fork": true,
+    "archived": false,
+    "language": null,
+    "description": "",
+    "default_branch": "main",
+    "pushed_at": "2026-07-21T13:15:24Z",
+    "updated_at": "2026-07-21T21:47:17Z",
+    "last_commit": "2026-06-25T12:00:35Z",
+    "parent": "owner-07/repo-4297",
+    "parent_pushed_at": "2026-07-05T03:04:52Z",
+    "parent_archived": false,
+    "sources": [
+     "gl-group:acme"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 270,
+     "n_contributors": 76,
+     "rank": 57,
+     "share": 0.6134
+    },
+    "local_paths": [
+     "/home/example/work/repo-4297"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 25,
+    "synopsis": null,
+    "gl_id": 9297
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "main author",
+    "evidence": "270 commits (rank 57/76, 61%)",
+    "tier": "1",
+    "computed_domain": "Security research",
+    "status": "active",
+    "fork_note": "fork of owner-07/repo-4297; maintained: upstream",
+    "is_campaign": true,
+    "what_fallback": "—"
+   }
+  },
+  {
+   "key": "gitlab:acme/repo-0027",
+   "input": {
+    "key": "gitlab:acme/repo-0027",
+    "host": "gitlab",
+    "owner": "acme",
+    "name": "repo-0027",
+    "full_name": "acme/repo-0027",
+    "url": "https://gitlab.com/acme/repo-0027",
+    "private": true,
+    "fork": false,
+    "archived": false,
+    "language": "Rust",
+    "description": "A synthetic tool.",
+    "default_branch": "master",
+    "pushed_at": "2026-06-24T09:58:36Z",
+    "updated_at": "2026-06-24T06:58:45Z",
+    "last_commit": null,
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gl-mr"
+    ],
+    "mrs": 0,
+    "gl_contributed": true,
+    "contrib": {
+     "commits": 2,
+     "n_contributors": 40
+    },
+    "local_paths": [
+     "/home/example/work/repo-0027"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 0027",
+    "gl_id": 5027
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "occasional",
+    "evidence": "2 commits",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "active",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synopsis 0027"
+   }
+  },
+  {
+   "key": "gitlab:acme/repo-0066-mirror-one",
+   "input": {
+    "key": "gitlab:acme/repo-0066-mirror-one",
+    "host": "gitlab",
+    "owner": "acme",
+    "name": "repo-0066-mirror-one",
+    "full_name": "acme/repo-0066-mirror-one",
+    "url": "https://gitlab.com/acme/repo-0066-mirror-one",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "Python",
+    "description": "",
+    "default_branch": "master",
+    "pushed_at": "2025-11-18T01:45:44Z",
+    "updated_at": "2025-11-17T17:16:12Z",
+    "last_commit": "2025-11-09T17:26:38Z",
+    "parent": "owner-07/repo-0066-mirror-one",
+    "parent_pushed_at": "2022-06-25T06:45:34Z",
+    "parent_archived": false,
+    "sources": [
+     "gl-mr",
+     "gl-group:acme-campaigns"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 0,
+     "n_contributors": 42
+    },
+    "local_paths": [
+     "/home/example/work/repo-0066-mirror-one"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null,
+    "gl_id": 5066
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": null,
+    "evidence": "",
+    "tier": "2",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": "fork of owner-07/repo-0066-mirror-one; maintained: fork (his)",
+    "is_campaign": false,
+    "what_fallback": "—"
+   }
+  },
+  {
+   "key": "gitlab:acme/repo-0118-mirror-two",
+   "input": {
+    "key": "gitlab:acme/repo-0118-mirror-two",
+    "host": "gitlab",
+    "owner": "acme",
+    "name": "repo-0118-mirror-two",
+    "full_name": "acme/repo-0118-mirror-two",
+    "url": "https://gitlab.com/acme/repo-0118-mirror-two",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": null,
+    "description": "Library for synthetic data.",
+    "default_branch": "main",
+    "pushed_at": "2026-04-08T05:03:02Z",
+    "updated_at": "2026-04-08T06:19:57Z",
+    "last_commit": "2026-03-31T17:06:29Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gl-group:acme",
+     "gl-user"
+    ],
+    "mrs": 0,
+    "gl_contributed": true,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null,
+    "gl_id": 5118
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "occasional",
+    "evidence": "GitLab contributed-project",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Library for synthetic data."
+   }
+  },
+  {
+   "key": "gitlab:acme/repo-15470-chainx",
+   "input": {
+    "key": "gitlab:acme/repo-15470-chainx",
+    "host": "gitlab",
+    "owner": "acme",
+    "name": "repo-15470-chainx",
+    "full_name": "acme/repo-15470-chainx",
+    "url": "https://gitlab.com/acme/repo-15470-chainx",
+    "private": false,
+    "fork": true,
+    "archived": true,
+    "language": "Python",
+    "description": "Synthetic copy of an upstream.",
+    "default_branch": "master",
+    "pushed_at": "2024-04-12T11:05:25Z",
+    "updated_at": "2024-04-12T08:21:36Z",
+    "last_commit": "2024-03-28T07:22:54Z",
+    "parent": "other-org/repo-15470-chainx",
+    "parent_pushed_at": "2025-11-17T21:49:25Z",
+    "parent_archived": false,
+    "sources": [
+     "gl-group:acme",
+     "gl-user"
+    ],
+    "mrs": 0,
+    "gl_contributed": true,
+    "contrib": {
+     "commits": 0,
+     "n_contributors": 7
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 45,
+    "synopsis": null,
+    "gl_id": 20470
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "contributor",
+    "evidence": "45 commits",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "archived",
+    "fork_note": "fork of other-org/repo-15470-chainx; maintained: upstream",
+    "is_campaign": false,
+    "what_fallback": "Synthetic copy of an upstream."
+   }
+  },
+  {
+   "key": "gitlab:acme/team-a/repo-0004-chainx",
+   "input": {
+    "key": "gitlab:acme/team-a/repo-0004-chainx",
+    "host": "gitlab",
+    "owner": "acme/team-a",
+    "name": "repo-0004-chainx",
+    "full_name": "acme/team-a/repo-0004-chainx",
+    "url": "https://gitlab.com/acme/team-a/repo-0004-chainx",
+    "private": true,
+    "fork": false,
+    "archived": false,
+    "language": "C",
+    "description": "Library for synthetic data.",
+    "default_branch": "master",
+    "pushed_at": "2026-08-28T19:53:29Z",
+    "updated_at": "2026-08-28T12:48:43Z",
+    "last_commit": "2026-08-03T15:18:06Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gl-user",
+     "gl-contributed"
+    ],
+    "mrs": 24,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 223,
+     "n_contributors": 50,
+     "rank": 2,
+     "share": 0.3586
+    },
+    "local_paths": [
+     "/home/example/work/repo-0004-chainx"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 0004",
+    "gl_id": 5004
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "contributor",
+    "evidence": "223 commits (rank 2/50, 35%), 24 PRs/MRs",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "active",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synopsis 0004"
+   }
+  },
+  {
+   "key": "gitlab:acme/team-a/repo-0028-chainx",
+   "input": {
+    "key": "gitlab:acme/team-a/repo-0028-chainx",
+    "host": "gitlab",
+    "owner": "acme/team-a",
+    "name": "repo-0028-chainx",
+    "full_name": "acme/team-a/repo-0028-chainx",
+    "url": "https://gitlab.com/acme/team-a/repo-0028-chainx",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": "Shell",
+    "description": "Library for synthetic data.",
+    "default_branch": "main",
+    "pushed_at": "2026-08-12T22:05:30Z",
+    "updated_at": "2026-08-13T00:03:25Z",
+    "last_commit": null,
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gl-user",
+     "gl-contributed"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 287,
+     "n_contributors": 11,
+     "rank": 3,
+     "share": 0.9446
+    },
+    "local_paths": [
+     "/home/example/work/repo-0028-chainx"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null,
+    "gl_id": 5028
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "main author",
+    "evidence": "287 commits (rank 3/11, 94%)",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "active",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Library for synthetic data."
+   }
+  },
+  {
+   "key": "gitlab:acme/team-a/repo-0583-mirror-two",
+   "input": {
+    "key": "gitlab:acme/team-a/repo-0583-mirror-two",
+    "host": "gitlab",
+    "owner": "acme/team-a",
+    "name": "repo-0583-mirror-two",
+    "full_name": "acme/team-a/repo-0583-mirror-two",
+    "url": "https://gitlab.com/acme/team-a/repo-0583-mirror-two",
+    "private": true,
+    "fork": true,
+    "archived": false,
+    "language": "OCaml",
+    "description": "",
+    "default_branch": "main",
+    "pushed_at": "2026-03-05T08:09:19Z",
+    "updated_at": "2026-03-04T23:13:54Z",
+    "last_commit": null,
+    "parent": "other-org/repo-0583-mirror-two",
+    "parent_pushed_at": "2026-08-17T18:14:59Z",
+    "parent_archived": false,
+    "sources": [
+     "gl-mr"
+    ],
+    "mrs": 3,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 0,
+     "n_contributors": 21
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null,
+    "gl_id": 5583
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "contributor",
+    "evidence": "3 PRs/MRs",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": "fork of other-org/repo-0583-mirror-two; maintained: upstream",
+    "is_campaign": false,
+    "what_fallback": "—"
+   }
+  },
+  {
+   "key": "gitlab:acme/team-a/repo-1030-mirror-two",
+   "input": {
+    "key": "gitlab:acme/team-a/repo-1030-mirror-two",
+    "host": "gitlab",
+    "owner": "acme/team-a",
+    "name": "repo-1030-mirror-two",
+    "full_name": "acme/team-a/repo-1030-mirror-two",
+    "url": "https://gitlab.com/acme/team-a/repo-1030-mirror-two",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "OCaml",
+    "description": "",
+    "default_branch": "main",
+    "pushed_at": "2024-08-07T20:32:14Z",
+    "updated_at": "2024-08-07T21:32:21Z",
+    "last_commit": "2024-08-05T18:27:19Z",
+    "parent": "acme/repo-1030-mirror-two",
+    "parent_pushed_at": "2020-07-28T15:43:34Z",
+    "parent_archived": false,
+    "sources": [
+     "gl-user",
+     "gl-mr"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [
+     "/home/example/work/repo-1030-mirror-two"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null,
+    "gl_id": 6030
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": null,
+    "evidence": "",
+    "tier": "2",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": "fork of acme/repo-1030-mirror-two; maintained: fork (his)",
+    "is_campaign": false,
+    "what_fallback": "—"
+   }
+  },
+  {
+   "key": "gitlab:acme/team-a/repo-3019",
+   "input": {
+    "key": "gitlab:acme/team-a/repo-3019",
+    "host": "gitlab",
+    "owner": "acme/team-a",
+    "name": "repo-3019",
+    "full_name": "acme/team-a/repo-3019",
+    "url": "https://gitlab.com/acme/team-a/repo-3019",
+    "private": true,
+    "fork": false,
+    "archived": false,
+    "language": "TypeScript",
+    "description": "Synthetic copy of an upstream.",
+    "default_branch": "main",
+    "pushed_at": "2023-11-02T09:47:50Z",
+    "updated_at": "2023-11-02T04:37:24Z",
+    "last_commit": "2023-10-17T13:56:25Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gl-mr",
+     "gl-contributed"
+    ],
+    "mrs": 0,
+    "gl_contributed": true,
+    "contrib": {
+     "commits": 0,
+     "n_contributors": 70
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 3019",
+    "gl_id": 8019
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "occasional",
+    "evidence": "GitLab contributed-project",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synopsis 3019"
+   }
+  },
+  {
+   "key": "gitlab:chainx/repo-0160-mirror-two",
+   "input": {
+    "key": "gitlab:chainx/repo-0160-mirror-two",
+    "host": "gitlab",
+    "owner": "chainx",
+    "name": "repo-0160-mirror-two",
+    "full_name": "chainx/repo-0160-mirror-two",
+    "url": "https://gitlab.com/chainx/repo-0160-mirror-two",
+    "private": false,
+    "fork": false,
+    "archived": true,
+    "language": "C",
+    "description": "Library for synthetic data.",
+    "default_branch": "master",
+    "pushed_at": "2026-07-25T05:29:19Z",
+    "updated_at": "2026-07-25T08:29:16Z",
+    "last_commit": null,
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gl-group:acme-campaigns",
+     "gl-mr"
+    ],
+    "mrs": 1,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 321,
+     "n_contributors": 18,
+     "rank": 18,
+     "share": 0.4621
+    },
+    "local_paths": [
+     "/home/example/work/repo-0160-mirror-two"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 0160",
+    "gl_id": 5160
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "main author",
+    "evidence": "321 commits (rank 18/18, 46%), 1 PRs/MRs",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "archived",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synopsis 0160"
+   }
+  },
+  {
+   "key": "gitlab:chainx/repo-0403",
+   "input": {
+    "key": "gitlab:chainx/repo-0403",
+    "host": "gitlab",
+    "owner": "chainx",
+    "name": "repo-0403",
+    "full_name": "chainx/repo-0403",
+    "url": "https://gitlab.com/chainx/repo-0403",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "Python",
+    "description": "",
+    "default_branch": "main",
+    "pushed_at": "2026-08-17T22:03:36Z",
+    "updated_at": "2026-08-18T11:56:35Z",
+    "last_commit": "2026-08-16T05:39:51Z",
+    "parent": "acme/repo-0403",
+    "parent_pushed_at": "2026-07-31T09:41:40Z",
+    "parent_archived": true,
+    "sources": [
+     "gl-contributed"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 7,
+     "n_contributors": 79,
+     "rank": 19,
+     "share": 0.0131
+    },
+    "local_paths": [
+     "/home/example/work/repo-0403"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null,
+    "gl_id": 5403
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "occasional",
+    "evidence": "7 commits (rank 19/79, 1%)",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "active",
+    "fork_note": "fork of acme/repo-0403; maintained: fork (upstream archived)",
+    "is_campaign": false,
+    "what_fallback": "—"
+   }
+  },
+  {
+   "key": "gitlab:chainx/repo-0468",
+   "input": {
+    "key": "gitlab:chainx/repo-0468",
+    "host": "gitlab",
+    "owner": "chainx",
+    "name": "repo-0468",
+    "full_name": "chainx/repo-0468",
+    "url": "https://gitlab.com/chainx/repo-0468",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "C",
+    "description": "Synthetic copy of an upstream.",
+    "default_branch": "main",
+    "pushed_at": "2025-11-02T20:37:18Z",
+    "updated_at": "2025-11-03T04:24:05Z",
+    "last_commit": "2025-10-06T01:12:17Z",
+    "parent": "chainx/repo-0468",
+    "parent_pushed_at": "2026-08-12T22:53:00Z",
+    "parent_archived": false,
+    "sources": [
+     "gl-mr"
+    ],
+    "mrs": 39,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 0468",
+    "gl_id": 5468
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "contributor (major)",
+    "evidence": "39 PRs/MRs",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": "fork of chainx/repo-0468; maintained: upstream",
+    "is_campaign": false,
+    "what_fallback": "Synopsis 0468"
+   }
+  },
+  {
+   "key": "gitlab:chainx/repo-11822",
+   "input": {
+    "key": "gitlab:chainx/repo-11822",
+    "host": "gitlab",
+    "owner": "chainx",
+    "name": "repo-11822",
+    "full_name": "chainx/repo-11822",
+    "url": "https://gitlab.com/chainx/repo-11822",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": "Shell",
+    "description": "A synthetic tool.",
+    "default_branch": "main",
+    "pushed_at": "2026-07-19T11:31:04Z",
+    "updated_at": "2026-07-18T19:23:51Z",
+    "last_commit": "2026-06-19T21:51:14Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gl-contributed",
+     "gl-mr"
+    ],
+    "mrs": 58,
+    "gl_contributed": true,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null,
+    "gl_id": 16822
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "contributor (major)",
+    "evidence": "58 PRs/MRs, GitLab contributed-project",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "active",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "A synthetic tool."
+   }
+  },
+  {
+   "key": "gitlab:chainx/repo-1634-mirror-two",
+   "input": {
+    "key": "gitlab:chainx/repo-1634-mirror-two",
+    "host": "gitlab",
+    "owner": "chainx",
+    "name": "repo-1634-mirror-two",
+    "full_name": "chainx/repo-1634-mirror-two",
+    "url": "https://gitlab.com/chainx/repo-1634-mirror-two",
+    "private": true,
+    "fork": true,
+    "archived": false,
+    "language": "TypeScript",
+    "description": "A synthetic tool.",
+    "default_branch": "main",
+    "pushed_at": "2026-08-01T22:03:53Z",
+    "updated_at": "2026-08-02T11:10:17Z",
+    "last_commit": "2026-07-22T07:25:56Z",
+    "parent": "other-org/repo-1634-mirror-two",
+    "parent_pushed_at": "2026-08-30T13:49:52Z",
+    "parent_archived": false,
+    "sources": [
+     "gl-contributed",
+     "gl-group:acme-campaigns"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 0,
+     "n_contributors": 27
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null,
+    "gl_id": 6634
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": null,
+    "evidence": "",
+    "tier": "2",
+    "computed_domain": null,
+    "status": "active",
+    "fork_note": "fork of other-org/repo-1634-mirror-two; maintained: upstream",
+    "is_campaign": false,
+    "what_fallback": "A synthetic tool."
+   }
+  },
+  {
+   "key": "gitlab:chainx/repo-1684",
+   "input": {
+    "key": "gitlab:chainx/repo-1684",
+    "host": "gitlab",
+    "owner": "chainx",
+    "name": "repo-1684",
+    "full_name": "chainx/repo-1684",
+    "url": "https://gitlab.com/chainx/repo-1684",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "Rust",
+    "description": "Library for synthetic data.",
+    "default_branch": "main",
+    "pushed_at": "2026-07-10T20:59:57Z",
+    "updated_at": "2026-07-11T10:55:33Z",
+    "last_commit": "2026-06-28T06:50:37Z",
+    "parent": "owner-07/repo-1684",
+    "parent_pushed_at": "2023-12-10T09:44:31Z",
+    "parent_archived": false,
+    "sources": [
+     "gl-user"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 9,
+     "n_contributors": 64
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null,
+    "gl_id": 6684
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "occasional",
+    "evidence": "9 commits",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "active",
+    "fork_note": "fork of owner-07/repo-1684; maintained: fork (his)",
+    "is_campaign": false,
+    "what_fallback": "Library for synthetic data."
+   }
+  },
+  {
+   "key": "gitlab:chainx/repo-2707",
+   "input": {
+    "key": "gitlab:chainx/repo-2707",
+    "host": "gitlab",
+    "owner": "chainx",
+    "name": "repo-2707",
+    "full_name": "chainx/repo-2707",
+    "url": "https://gitlab.com/chainx/repo-2707",
+    "private": false,
+    "fork": true,
+    "archived": true,
+    "language": "Go",
+    "description": "A synthetic tool.",
+    "default_branch": "main",
+    "pushed_at": "2026-05-23T13:07:58Z",
+    "updated_at": "2026-05-23T20:25:17Z",
+    "last_commit": "2026-05-09T07:19:25Z",
+    "parent": "other-org/repo-2707",
+    "parent_pushed_at": "2025-08-13T06:45:06Z",
+    "parent_archived": false,
+    "sources": [
+     "gl-group:acme",
+     "gl-user"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 0,
+     "n_contributors": 63
+    },
+    "local_paths": [
+     "/home/example/work/repo-2707"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 2707",
+    "gl_id": 7707
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": null,
+    "evidence": "",
+    "tier": "2",
+    "computed_domain": null,
+    "status": "archived",
+    "fork_note": "fork of other-org/repo-2707; maintained: fork (his)",
+    "is_campaign": false,
+    "what_fallback": "Synopsis 2707"
+   }
+  },
+  {
+   "key": "gitlab:chainx/repo-3554",
+   "input": {
+    "key": "gitlab:chainx/repo-3554",
+    "host": "gitlab",
+    "owner": "chainx",
+    "name": "repo-3554",
+    "full_name": "chainx/repo-3554",
+    "url": "https://gitlab.com/chainx/repo-3554",
+    "private": true,
+    "fork": false,
+    "archived": false,
+    "language": "Shell",
+    "description": "Synthetic copy of an upstream.",
+    "default_branch": "main",
+    "pushed_at": "2019-11-08T23:07:27Z",
+    "updated_at": "2019-11-08T12:49:13Z",
+    "last_commit": "2019-10-31T19:50:09Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gl-contributed",
+     "gl-user"
+    ],
+    "mrs": 58,
+    "gl_contributed": true,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null,
+    "gl_id": 8554
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "contributor (major)",
+    "evidence": "58 PRs/MRs, GitLab contributed-project",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synthetic copy of an upstream."
+   }
+  },
+  {
+   "key": "gitlab:exampleuser/repo-0020",
+   "input": {
+    "key": "gitlab:exampleuser/repo-0020",
+    "host": "gitlab",
+    "owner": "exampleuser",
+    "name": "repo-0020",
+    "full_name": "exampleuser/repo-0020",
+    "url": "https://gitlab.com/exampleuser/repo-0020",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": "Python",
+    "description": "",
+    "default_branch": "main",
+    "pushed_at": "2026-08-02T14:21:27Z",
+    "updated_at": "2026-08-03T05:28:44Z",
+    "last_commit": "2026-07-07T07:35:56Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gl-mr",
+     "gl-group:acme-campaigns"
+    ],
+    "mrs": 1,
+    "gl_contributed": true,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 2,
+    "synopsis": "Synopsis 0020",
+    "gl_id": 5020
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "owner",
+    "evidence": "2 commits, 1 PRs/MRs",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "active",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synopsis 0020"
+   }
+  },
+  {
+   "key": "gitlab:exampleuser/repo-0309-mirror-one",
+   "input": {
+    "key": "gitlab:exampleuser/repo-0309-mirror-one",
+    "host": "gitlab",
+    "owner": "exampleuser",
+    "name": "repo-0309-mirror-one",
+    "full_name": "exampleuser/repo-0309-mirror-one",
+    "url": "https://gitlab.com/exampleuser/repo-0309-mirror-one",
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": "OCaml",
+    "description": "Library for synthetic data.",
+    "default_branch": "main",
+    "pushed_at": "2026-06-05T23:31:59Z",
+    "updated_at": "2026-06-05T13:58:37Z",
+    "last_commit": null,
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gl-mr"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [
+     "/home/example/work/repo-0309-mirror-one"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null,
+    "gl_id": 5309
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "owner",
+    "evidence": "owned",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "active",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Library for synthetic data."
+   }
+  },
+  {
+   "key": "gitlab:exampleuser/repo-0388",
+   "input": {
+    "key": "gitlab:exampleuser/repo-0388",
+    "host": "gitlab",
+    "owner": "exampleuser",
+    "name": "repo-0388",
+    "full_name": "exampleuser/repo-0388",
+    "url": "https://gitlab.com/exampleuser/repo-0388",
+    "private": true,
+    "fork": false,
+    "archived": false,
+    "language": "TypeScript",
+    "description": "",
+    "default_branch": "master",
+    "pushed_at": "2021-12-22T07:00:14Z",
+    "updated_at": "2021-12-22T11:18:29Z",
+    "last_commit": "2021-12-19T14:41:02Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gl-user"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 59,
+     "n_contributors": 11,
+     "rank": 7,
+     "share": 0.0128
+    },
+    "local_paths": [
+     "/home/example/work/repo-0388"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 20,
+    "synopsis": "Synopsis 0388",
+    "gl_id": 5388
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "owner",
+    "evidence": "59 commits (rank 7/11, 1%)",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synopsis 0388"
+   }
+  },
+  {
+   "key": "gitlab:exampleuser/repo-11130-chainx",
+   "input": {
+    "key": "gitlab:exampleuser/repo-11130-chainx",
+    "host": "gitlab",
+    "owner": "exampleuser",
+    "name": "repo-11130-chainx",
+    "full_name": "exampleuser/repo-11130-chainx",
+    "url": "https://gitlab.com/exampleuser/repo-11130-chainx",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "Go",
+    "description": "A synthetic tool.",
+    "default_branch": "main",
+    "pushed_at": "2025-12-01T06:58:53Z",
+    "updated_at": "2025-11-30T18:47:11Z",
+    "last_commit": "2025-11-12T00:26:56Z",
+    "parent": "other-org/repo-11130-chainx",
+    "parent_pushed_at": "2023-09-24T22:51:02Z",
+    "parent_archived": false,
+    "sources": [
+     "gl-user",
+     "gl-group:acme-campaigns"
+    ],
+    "mrs": 0,
+    "gl_contributed": true,
+    "contrib": null,
+    "local_paths": [
+     "/home/example/work/repo-11130-chainx"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null,
+    "gl_id": 16130
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "inherited",
+    "evidence": "GitLab contributed-project — historical commits carried by a fork/mirror",
+    "tier": "fork",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": "fork of other-org/repo-11130-chainx; maintained: fork (his)",
+    "is_campaign": false,
+    "what_fallback": "A synthetic tool."
+   }
+  },
+  {
+   "key": "gitlab:exampleuser/repo-128551",
+   "input": {
+    "key": "gitlab:exampleuser/repo-128551",
+    "host": "gitlab",
+    "owner": "exampleuser",
+    "name": "repo-128551",
+    "full_name": "exampleuser/repo-128551",
+    "url": "https://gitlab.com/exampleuser/repo-128551",
+    "private": true,
+    "fork": true,
+    "archived": false,
+    "language": "Go",
+    "description": "",
+    "default_branch": "main",
+    "pushed_at": "2020-11-03T05:24:52Z",
+    "updated_at": "2020-11-03T11:23:19Z",
+    "last_commit": null,
+    "parent": "chainx/repo-128551",
+    "parent_pushed_at": "2026-08-15T09:38:41Z",
+    "parent_archived": true,
+    "sources": [
+     "gl-user",
+     "gl-contributed"
+    ],
+    "mrs": 0,
+    "gl_contributed": true,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null,
+    "gl_id": 133551
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "inherited",
+    "evidence": "GitLab contributed-project — historical commits carried by a fork/mirror",
+    "tier": "fork",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": "fork of chainx/repo-128551; maintained: fork (upstream archived)",
+    "is_campaign": false,
+    "what_fallback": "—"
+   }
+  },
+  {
+   "key": "gitlab:exampleuser/repo-3328-mirror-two",
+   "input": {
+    "key": "gitlab:exampleuser/repo-3328-mirror-two",
+    "host": "gitlab",
+    "owner": "exampleuser",
+    "name": "repo-3328-mirror-two",
+    "full_name": "exampleuser/repo-3328-mirror-two",
+    "url": "https://gitlab.com/exampleuser/repo-3328-mirror-two",
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": "Python",
+    "description": "",
+    "default_branch": "main",
+    "pushed_at": "2020-01-16T23:03:28Z",
+    "updated_at": "2020-01-17T06:39:53Z",
+    "last_commit": null,
+    "parent": "acme/repo-3328-mirror-two",
+    "parent_pushed_at": "2019-10-30T07:54:48Z",
+    "parent_archived": false,
+    "sources": [
+     "gl-contributed"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 4,
+     "n_contributors": 69
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null,
+    "gl_id": 8328
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "inherited",
+    "evidence": "4 commits — historical commits carried by a fork/mirror",
+    "tier": "fork",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": "fork of acme/repo-3328-mirror-two; maintained: fork (his)",
+    "is_campaign": false,
+    "what_fallback": "—"
+   }
+  },
+  {
+   "key": "gitlab:owner-gl-1/repo-0106-mirror-one",
+   "input": {
+    "key": "gitlab:owner-gl-1/repo-0106-mirror-one",
+    "host": "gitlab",
+    "owner": "owner-gl-1",
+    "name": "repo-0106-mirror-one",
+    "full_name": "owner-gl-1/repo-0106-mirror-one",
+    "url": "https://gitlab.com/owner-gl-1/repo-0106-mirror-one",
+    "private": true,
+    "fork": false,
+    "archived": false,
+    "language": "Go",
+    "description": "Library for synthetic data.",
+    "default_branch": "main",
+    "pushed_at": "2023-02-07T14:57:12Z",
+    "updated_at": "2023-02-08T06:43:38Z",
+    "last_commit": "2023-02-04T16:27:07Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "gl-mr",
+     "gl-user"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null,
+    "gl_id": 5106
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": null,
+    "evidence": "",
+    "tier": "2",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Library for synthetic data."
+   }
+  },
+  {
+   "key": "local:repo-0036-mirror-two",
+   "input": {
+    "key": "local:repo-0036-mirror-two",
+    "host": "local",
+    "owner": "local",
+    "name": "repo-0036-mirror-two",
+    "full_name": "repo-0036-mirror-two",
+    "url": null,
+    "private": true,
+    "fork": false,
+    "archived": false,
+    "language": "C",
+    "description": "",
+    "default_branch": "main",
+    "pushed_at": "2025-09-14T16:31:19Z",
+    "updated_at": "2025-09-14T19:27:53Z",
+    "last_commit": null,
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "local-remote"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 0,
+     "n_contributors": 53
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "owner",
+    "evidence": "owned",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "—"
+   }
+  },
+  {
+   "key": "local:repo-0048",
+   "input": {
+    "key": "local:repo-0048",
+    "host": "local",
+    "owner": "local",
+    "name": "repo-0048",
+    "full_name": "repo-0048",
+    "url": null,
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": "TypeScript",
+    "description": "Library for synthetic data.",
+    "default_branch": "master",
+    "pushed_at": "2026-08-16T13:01:43Z",
+    "updated_at": "2026-08-16T15:41:19Z",
+    "last_commit": "2026-07-18T23:08:11Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "local-only"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 148,
+     "n_contributors": 3
+    },
+    "local_paths": [
+     "/home/example/work/repo-0048"
+    ],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 0048"
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "owner",
+    "evidence": "148 commits",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "active",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synopsis 0048"
+   }
+  },
+  {
+   "key": "local:repo-0092-mirror-two",
+   "input": {
+    "key": "local:repo-0092-mirror-two",
+    "host": "local",
+    "owner": "local",
+    "name": "repo-0092-mirror-two",
+    "full_name": "repo-0092-mirror-two",
+    "url": null,
+    "private": true,
+    "fork": false,
+    "archived": false,
+    "language": "OCaml",
+    "description": "Synthetic copy of an upstream.",
+    "default_branch": "master",
+    "pushed_at": "2026-02-22T06:19:06Z",
+    "updated_at": "2026-02-21T15:29:32Z",
+    "last_commit": "2026-02-04T21:23:31Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "local-remote"
+    ],
+    "mrs": 2,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 4,
+     "n_contributors": 36,
+     "rank": 22,
+     "share": 0.6438
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 7,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "owner",
+    "evidence": "7 commits (rank 22/36, 64%), 2 PRs/MRs",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synthetic copy of an upstream."
+   }
+  },
+  {
+   "key": "local:repo-0132",
+   "input": {
+    "key": "local:repo-0132",
+    "host": "local",
+    "owner": "local",
+    "name": "repo-0132",
+    "full_name": "repo-0132",
+    "url": null,
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": "Shell",
+    "description": "Library for synthetic data.",
+    "default_branch": "main",
+    "pushed_at": "2025-08-03T03:31:05Z",
+    "updated_at": "2025-08-02T20:03:33Z",
+    "last_commit": "2025-07-10T21:33:13Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "local-remote"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 243,
+     "n_contributors": 60,
+     "rank": 47,
+     "share": 0.7697
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 33,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "owner",
+    "evidence": "243 commits (rank 47/60, 76%)",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Library for synthetic data."
+   }
+  },
+  {
+   "key": "local:repo-0179",
+   "input": {
+    "key": "local:repo-0179",
+    "host": "local",
+    "owner": "local",
+    "name": "repo-0179",
+    "full_name": "repo-0179",
+    "url": null,
+    "private": true,
+    "fork": false,
+    "archived": false,
+    "language": "OCaml",
+    "description": "A synthetic tool.",
+    "default_branch": "master",
+    "pushed_at": "2026-08-20T21:18:05Z",
+    "updated_at": "2026-08-20T14:00:19Z",
+    "last_commit": "2026-08-16T11:04:17Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "local-remote"
+    ],
+    "mrs": 18,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "owner",
+    "evidence": "18 PRs/MRs",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "active",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "A synthetic tool."
+   }
+  },
+  {
+   "key": "local:repo-0342",
+   "input": {
+    "key": "local:repo-0342",
+    "host": "local",
+    "owner": "local",
+    "name": "repo-0342",
+    "full_name": "repo-0342",
+    "url": null,
+    "private": false,
+    "fork": false,
+    "archived": false,
+    "language": "Rust",
+    "description": "Library for synthetic data.",
+    "default_branch": "master",
+    "pushed_at": "2024-07-26T12:59:23Z",
+    "updated_at": "2024-07-27T08:55:36Z",
+    "last_commit": "2024-07-01T03:51:47Z",
+    "parent": null,
+    "parent_pushed_at": null,
+    "parent_archived": false,
+    "sources": [
+     "local-unreachable-remote"
+    ],
+    "mrs": 30,
+    "gl_contributed": false,
+    "contrib": {
+     "commits": 312,
+     "n_contributors": 6,
+     "rank": 5,
+     "share": 0.0447
+    },
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": "Synopsis 0342"
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": "owner",
+    "evidence": "312 commits (rank 5/6, 4%), 30 PRs/MRs",
+    "tier": "1",
+    "computed_domain": null,
+    "status": "stale",
+    "fork_note": null,
+    "is_campaign": false,
+    "what_fallback": "Synopsis 0342"
+   }
+  },
+  {
+   "key": "local:repo-0828",
+   "input": {
+    "key": "local:repo-0828",
+    "host": "local",
+    "owner": "local",
+    "name": "repo-0828",
+    "full_name": "repo-0828",
+    "url": null,
+    "private": false,
+    "fork": true,
+    "archived": false,
+    "language": null,
+    "description": "Synthetic copy of an upstream.",
+    "default_branch": "main",
+    "pushed_at": "2026-04-25T20:04:01Z",
+    "updated_at": "2026-04-25T23:40:29Z",
+    "last_commit": null,
+    "parent": "owner-07/repo-0828",
+    "parent_pushed_at": "2026-06-19T14:07:05Z",
+    "parent_archived": true,
+    "sources": [
+     "local-unreachable-remote"
+    ],
+    "mrs": 0,
+    "gl_contributed": false,
+    "contrib": null,
+    "local_paths": [],
+    "local_worktrees": [],
+    "local_my_commits": 0,
+    "synopsis": null
+   },
+   "search_commits": 0,
+   "search_prs": 0,
+   "expected": {
+    "role": null,
+    "evidence": "",
+    "tier": "2",
+    "computed_domain": null,
+    "status": "dormant",
+    "fork_note": "fork of owner-07/repo-0828; maintained: fork (upstream archived)",
+    "is_campaign": false,
+    "what_fallback": "Synthetic copy of an upstream."
+   }
+  }
+ ]
+}

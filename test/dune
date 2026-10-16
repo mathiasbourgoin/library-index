@@ -1,0 +1,85 @@
+(library
+ (name test_support)
+ (modules support fake_forge doc_fixture hardening_fixture)
+ (libraries library_index alcotest yojson unix ptime re))
+
+(tests
+ (names
+  test_migration
+  test_store
+  test_redact
+  test_mcp
+  test_search
+  test_curate
+  test_refresh
+  test_render
+  test_campaign
+  test_fetch_edges
+  test_docs
+  test_libid
+  test_mcp_modern
+  test_config
+  test_register
+  test_prefill
+  test_extract
+  test_extras
+  test_analysis
+  test_hardening
+  test_hardening_misc
+  test_hardening_refresh
+  test_import
+  test_freeze)
+ (modules
+  test_migration
+  test_store
+  test_redact
+  test_mcp
+  test_search
+  test_curate
+  test_refresh
+  test_render
+  test_campaign
+  test_fetch_edges
+  test_docs
+  test_libid
+  test_mcp_modern
+  test_config
+  test_register
+  test_prefill
+  test_extract
+  test_extras
+  test_analysis
+  test_hardening
+  test_hardening_misc
+  test_hardening_refresh
+  test_import
+  test_freeze)
+ (libraries
+  library_index
+  test_support
+  alcotest
+  yojson
+  sqlite3
+  mcp-kit
+  re
+  unix)
+ (deps
+  (source_tree fixtures)
+  (source_tree ../examples)
+  (source_tree ../lib)
+  (source_tree ../bin)))
+
+; CHECK-31: the publishability guard scans the source tree (located through dune's
+; DUNE_SOURCEROOT, whatever --build-dir is) against the data directory's denylist.txt and
+; sources.toml. A set LIBRARY_INDEX_DATA without them fails; "skipped: no data dir" only
+; when it is unset and the default data directory does not exist.
+
+(test
+ (name test_guard)
+ (modules test_guard)
+ (libraries library_index unix)
+ (deps
+  (source_tree ..)
+  (env_var LIBRARY_INDEX_DATA)
+  (env_var XDG_DATA_HOME)
+  (env_var HOME)))

@@ -1,0 +1,19 @@
+_build/
+_opam/
+*.install
+node_modules/
+# A data directory must never live inside the code tree.
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+.export.lock
+.refresh.lock
+.sources.toml.lock
+curated.json
+!test/fixtures/**/curated.json
+whitehat_tools.json
+!test/fixtures/**/whitehat_tools.json
+sources.toml
+denylist.txt
+INDEX.md
